@@ -17,11 +17,14 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #2A354F;
+  background: linear-gradient(153deg, #FFF 0%, #EFEFEF 56.77%);
+}
+
+.listBox {
+  box-shadow: -10px -10px 15px 0px rgba(255, 255, 255, 0.90), 10px 10px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.buttonBox {
+  box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 0.90) inset, 3px 3px 6px 0px rgba(0, 0, 0, 0.10) inset, -8px -8px 10px 0px #FFF, 8px 8px 10px 0px rgba(0, 0, 0, 0.15);
 }
