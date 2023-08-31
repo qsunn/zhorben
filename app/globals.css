@@ -26,5 +26,18 @@ body {
 }
 
 .buttonBox {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 110%;
+  padding: 13px 40px;
+  border-radius: 30px;
+  background: #EFEFEF;
   box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 0.90) inset, 3px 3px 6px 0px rgba(0, 0, 0, 0.10) inset, -8px -8px 10px 0px #FFF, 8px 8px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.box {
+  border-radius: 15px;
+  border: 1px solid #E0E0E0;
+  background: #EFEFEF;
+  box-shadow: -10px -10px 15px 0px rgba(255, 255, 255, 0.90), 10px 10px 15px 0px rgba(0, 0, 0, 0.15);
 }
