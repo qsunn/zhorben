@@ -1,4 +1,5 @@
 import { Landing } from "./components/HomePage/Landing";
+import { OurServices } from "./components/HomePage/OurServices";
 import { WaysOfWork } from "./components/HomePage/WaysOfWork";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="w-full mx-auto">
       <Landing />
       <WaysOfWork />
+      <OurServices />
     </main>
   )
 }

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { s } from "../styles"
+import { LetsChatBtn } from "./LetsChatBtn"
 
 export const Header = () => {
     return <header className={`${s.container} py-8 md:py-16 !absolute top-0 left-0 z-50`}>
@@ -29,7 +30,7 @@ export const Header = () => {
                 <Link href='contacts'>Contacts</Link>
             </li>
             <li>
-                <Link href='chat'>Let&apos;s chat</Link>
+                <button type="button" className="buttonBoxHeader">Let&apos;s chat</button>
             </li>
         </ul>
     </header>
