@@ -1,3 +1,4 @@
+import { Experts } from "./components/HomePage/Experts";
 import { Landing } from "./components/HomePage/Landing";
 import { OurServices } from "./components/HomePage/OurServices";
 import { WaysOfWork } from "./components/HomePage/WaysOfWork";
@@ -8,6 +9,7 @@ export default function Home() {
       <Landing />
       <WaysOfWork />
       <OurServices />
+      <Experts />
     </main>
   )
 }
