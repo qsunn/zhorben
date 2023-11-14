@@ -17,12 +17,23 @@
 }
 
 body {
-  color: #2A354F;
-  background: linear-gradient(153deg, #FFF 0%, #EFEFEF 56.77%);
+  color: #2a354f;
+  background: linear-gradient(153deg, #fff 0%, #efefef 56.77%);
 }
 
 .listBox {
-  box-shadow: -10px -10px 15px 0px rgba(255, 255, 255, 0.90), 10px 10px 15px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: -10px -10px 15px 0px rgba(255, 255, 255, 0.9),
+    10px 10px 15px 0px rgba(0, 0, 0, 0.15);
+}
+.ellipse {
+  box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 0.9) inset,
+    3px 3px 6px 0px rgba(0, 0, 0, 0.15) inset,
+    -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
+    8px 8px 16px 0px rgba(0, 0, 0, 0.15);
+}
+.ellipse2 {
+  box-shadow: -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
+    8px 8px 16px 0px rgba(0, 0, 0, 0.15);
 }
 
 .buttonBoxHeader {
@@ -31,8 +42,10 @@ body {
   line-height: 110%;
   padding: 15px 25px;
   border-radius: 30px;
-  background: #F2F2F2;
-  box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 0.90) inset, 3px 3px 6px 0px rgba(0, 0, 0, 0.10) inset, -8px -8px 10px 0px #FFF, 8px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  background: #f2f2f2;
+  box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 0.9) inset,
+    3px 3px 6px 0px rgba(0, 0, 0, 0.1) inset, -8px -8px 10px 0px #fff,
+    8px 8px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
 .buttonBox {
@@ -41,19 +54,23 @@ body {
   line-height: 110%;
   padding: 13px 40px;
   border-radius: 30px;
-  background: #EFEFEF;
-  box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 0.90) inset, 3px 3px 6px 0px rgba(0, 0, 0, 0.10) inset, -8px -8px 10px 0px #FFF, 8px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  background: #efefef;
+  box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 0.9) inset,
+    3px 3px 6px 0px rgba(0, 0, 0, 0.1) inset, -8px -8px 10px 0px #fff,
+    8px 8px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
 .box {
   border-radius: 15px;
-  border: 1px solid #E0E0E0;
-  background: #EFEFEF;
-  box-shadow: -10px -10px 15px 0px rgba(255, 255, 255, 0.90), 10px 10px 15px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e0e0e0;
+  background: #efefef;
+  box-shadow: -10px -10px 15px 0px rgba(255, 255, 255, 0.9),
+    10px 10px 15px 0px rgba(0, 0, 0, 0.15);
 }
 
 .box2 {
   border-radius: 15px;
-  background: #EFEFEF;
-  box-shadow: -6px -6px 8px 0px #FFF inset, 6px 6px 8px 0px rgba(0, 0, 0, 0.15) inset;
+  background: #efefef;
+  box-shadow: -6px -6px 8px 0px #fff inset,
+    6px 6px 8px 0px rgba(0, 0, 0, 0.15) inset;
 }

@@ -1,1 +1,5 @@
-export const LetsChatBtn = () => <button type="button" className="buttonBox">Let&apos;s chat</button>
+export const LetsChatBtn = () => (
+  <button type="button" className="buttonBox">
+    Let&apos;s chat
+  </button>
+);
