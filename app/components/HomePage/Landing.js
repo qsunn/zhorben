@@ -1,5 +1,5 @@
 import { s } from "@/app/styles";
-import { LetsChatBtn } from "../LetsChatBtn";
+import { Button } from "../Button";
 
 export const Landing = () => {
   const list = [
@@ -17,21 +17,21 @@ export const Landing = () => {
     >
       <div className="w-full grid grid-flow-row">
         <div className="max-w-[39.25rem] grid grid-flow-row gap-8 place-items-start mb-[15.75rem]">
-          <h1 className={s.h1title}>
+          <h1 className={s.h2titleH}>
             Build and scale your business fast with our world-class senior
             developers
           </h1>
-          <p className="max-w-[32.875rem] text-2xl mb-4">
-            Hire our full-time team of senior developers to launch, accelerate,
+          <p className={`${s.p1medium} text-grey max-w-[32.875rem]`}>
+            Hire our full-time team of senior developers to launch, accelerate
             and support your business applications. Mobile. Web. AI.
           </p>
-          <LetsChatBtn />
+          <Button text="Let's chat" />
         </div>
-        <ul className="grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-5">
+        <ul className={`grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-5`}>
           {list.map((item) => (
             <li
               key={item}
-              className={`listBox p-[2.625rem] rounded-[15px] bg-[#F5F5F5] grid place-items-center font-semibold text-xl text-center`}
+              className={` listBox p-[2.625rem] rounded-[15px] bg-[#F5F5F5] grid place-items-center text-center ${s.p2heavy} `}
             >
               {item}
             </li>

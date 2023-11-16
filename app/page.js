@@ -4,6 +4,8 @@ import { OurServices } from "./components/HomePage/OurServices";
 import { WaysOfWork } from "./components/HomePage/WaysOfWork";
 import { Discovery } from "./components/HomePage/Discovery";
 import { Offer } from "./components/HomePage/Offer";
+import { Based } from "./components/HomePage/Based";
+import { OurClients } from "./components/HomePage/OurClients";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Experts />
       <Discovery />
       <Offer />
+      <Based />
+      <OurClients />
     </main>
   );
 }

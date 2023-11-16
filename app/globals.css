@@ -35,7 +35,24 @@ body {
   box-shadow: -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
     8px 8px 16px 0px rgba(0, 0, 0, 0.15);
 }
-
+.badge {
+  box-shadow: -1px -1px 1px 0px #fff inset,
+    1px 1px 1px 0px rgba(0, 0, 0, 0.15) inset;
+  border-radius: 15px;
+  background: #f4f4f4;
+  padding: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.opacityGradient {
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    right center,
+    right bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0.2))
+  );
+}
 .buttonBoxHeader {
   font-size: 16px;
   font-weight: 600;
