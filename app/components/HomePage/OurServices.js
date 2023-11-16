@@ -4,7 +4,7 @@ export const OurServices = () => {
   return (
     <section className={`${s.container} pt-[3.75rem] pb-20`}>
       <div className="w-full grid grid-flow-row place-items-center gap-0">
-        <h2 className={s.h3title}>Our services</h2>
+        <h3 className={s.h3title}>Our services</h3>
         <div className="grid grid-flow-col place-items-center gap-12">
           <div className="grid grid-flow-row gap-32 mt-[16rem]">
             <div className={s.serviceBox}>

@@ -8,7 +8,7 @@ export const Header = () => {
       className={`${s.container} py-8 md:py-16 !absolute top-0 left-0 z-50`}
     >
       <ul
-        className={`w-full flex items-center justify-between gap-16 text-base ${s.p4medium}`}
+        className={`w-full flex items-center justify-between gap-16 ${s.p4medium}`}
       >
         <li className="bg-no-repeat bg-center bg-contain h-[1.625rem] w-[12.5rem] bg-[url('./images/zhorben_logo.svg')]">
           <Link href="" className="w-full h-full">

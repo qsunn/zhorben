@@ -31,10 +31,7 @@ body {
     -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
     8px 8px 16px 0px rgba(0, 0, 0, 0.15);
 }
-.ellipse2 {
-  box-shadow: -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
-    8px 8px 16px 0px rgba(0, 0, 0, 0.15);
-}
+
 .badge {
   box-shadow: -1px -1px 1px 0px #fff inset,
     1px 1px 1px 0px rgba(0, 0, 0, 0.15) inset;
@@ -76,7 +73,10 @@ body {
     3px 3px 6px 0px rgba(0, 0, 0, 0.1) inset, -8px -8px 10px 0px #fff,
     8px 8px 10px 0px rgba(0, 0, 0, 0.15);
 }
-
+.buttonBox:hover {
+  box-shadow: -6px -6px 8px 0px #fff inset,
+    6px 6px 8px 0px rgba(0, 0, 0, 0.15) inset;
+}
 .box {
   border-radius: 15px;
   border: 1px solid #e0e0e0;
