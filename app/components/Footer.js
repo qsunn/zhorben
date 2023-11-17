@@ -67,7 +67,7 @@ export const Footer = () => {
                       );
                     return (
                       <>
-                        <li key={link.name} className=" text-grey">
+                        <li key={link.name} className="text-grey hover:text-blue">
                           <div className="flex flex-row gap-1">
                             <div className=" w-5 h-5 bg-center bg-no-repeat bg-auto bg-[url('./images/icon_on.svg')]" />
                             <Link href={link.href}>{link.name}</Link>

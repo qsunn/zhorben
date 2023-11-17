@@ -40,9 +40,11 @@ export const Reviews = () => {
   const [sliderRef, instanceRef] = useKeenSlider({
     loop: true,
     rtl: true,
+    mode: "snap",
     slides: {
+      origin: 'center',
       perView: 3,
-      spacing: 10,
+      spacing: 5,
     },
     initial: 0,
     slideChanged(slider) {
@@ -56,10 +58,10 @@ export const Reviews = () => {
   return (
     <section className={`${s.container}`}>
       <div className="navigation-wrapper w-full">
-        <div ref={sliderRef} className="keen-slider">
+        <div ref={sliderRef} className="keen-slider w-full flex items-center">
           {employeesData.map((employee, i) => {
             return (
-              <div className="keen-slider__slide" key={employee.name}>
+              <div className="keen-slider__slide px-5" key={employee.name}>
                 <ReviewCard
                   employee={employee}
                   index={i}
@@ -76,7 +78,6 @@ export const Reviews = () => {
               onClick={(e) =>
                 e.stopPropagation() || instanceRef.current?.prev()
               }
-              disabled={currentSlide === 0}
               className="ellipse bg-[#EFEFEF] p-3 absolute -left-16 top-1/2 -translate-y-1/2"
             >
               <div className="h-[1.25rem] w-[1.25rem] bg-center bg-no-repeat bg-contain bg-[url('./images/icon_arrow_left.svg')]" />
@@ -87,7 +88,6 @@ export const Reviews = () => {
               onClick={(e) =>
                 e.stopPropagation() || instanceRef.current?.next()
               }
-              disabled={currentSlide === employeesData.length - 1}
               className="ellipse bg-[#EFEFEF] p-3 absolute -right-16 top-1/2 -translate-y-1/2"
             >
               <div className="h-[1.25rem] w-[1.25rem] bg-center bg-no-repeat bg-contain bg-[url('./images/icon_arrow_right.svg')]" />

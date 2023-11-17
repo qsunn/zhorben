@@ -34,6 +34,11 @@ body {
   border-radius: 50%;
 }
 
+.ellipse:hover {
+  box-shadow: -6px -6px 8px 0px #fff inset,
+    6px 6px 8px 0px rgba(0, 0, 0, 0.15) inset;
+}
+
 .badge {
   box-shadow: -1px -1px 1px 0px #fff inset,
     1px 1px 1px 0px rgba(0, 0, 0, 0.15) inset;
@@ -45,13 +50,11 @@ body {
 }
 
 .opacityGradient {
-  -webkit-mask-image: -webkit-gradient(
-    linear,
-    right center,
-    right bottom,
-    from(rgba(0, 0, 0, 1)),
-    to(rgba(0, 0, 0, 0.2))
-  );
+  -webkit-mask-image: -webkit-gradient(linear,
+      right center,
+      right bottom,
+      from(rgba(0, 0, 0, 1)),
+      to(rgba(0, 0, 0, 0.2)));
 }
 
 .buttonBoxHeader {
@@ -100,4 +103,9 @@ body {
 
 .navigation-wrapper {
   position: relative;
+}
+
+.photoBox {
+  fill: #F3F3F3;
+  box-shadow: -6px -6px 10px 0px #FFF inset, 6px 6px 8px 0px rgba(0, 0, 0, 0.10) inset;
 }
