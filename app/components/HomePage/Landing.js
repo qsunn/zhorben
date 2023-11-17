@@ -17,10 +17,10 @@ export const Landing = () => {
     >
       <div className="w-full grid grid-flow-row">
         <div className="max-w-[39.25rem] grid grid-flow-row gap-8 place-items-start mb-[15.75rem]">
-          <h1 className={s.h2titleH}>
+          <h2 className={s.h2titleH}>
             Build and scale your business fast with our world-class senior
             developers
-          </h1>
+          </h2>
           <p className={`${s.p1medium} text-grey max-w-[32.875rem]`}>
             Hire our full-time team of senior developers to launch, accelerate
             and support your business applications. Mobile. Web. AI.
