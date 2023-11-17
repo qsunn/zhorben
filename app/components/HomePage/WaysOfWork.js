@@ -4,10 +4,10 @@ import { Button } from "../Button";
 export const WaysOfWork = () => {
   return (
     <section className={`${s.container} py-20`}>
+      <h3 className={`${s.h3title} ${s.title}`}>
+        Convenient ways to work with us
+      </h3>
       <div className="grid place-items-center grid-flow-row gap-[3.75rem] w-full px-[8rem]">
-        <h3 className={`${s.h3title} mb-10`}>
-          Convenient ways to work with us
-        </h3>
         <div className="px-10 py-[1.875rem] box w-full">
           <h4 className={`${s.h4title} max-w-[12.375rem] mb-4`}>
             Team augmentation

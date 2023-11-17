@@ -4,8 +4,8 @@ import { ArrowButton } from "../ArrowButton";
 export const Offer = () => {
   return (
     <section className={`${s.container} py-20`}>
-      <h3 className={`${s.h3title}`}>What do we offer?</h3>
-      <div className={"grid grid-flow-col  pt-[3.75rem] gap-5 "}>
+      <h3 className={`${s.h3title} ${s.title}`}>What do we offer?</h3>
+      <div className={"grid grid-flow-col gap-5 "}>
         <div
           className={`box w-max p-10 flex flex-col gap-5 bg-center bg-no-repeat !bg-cover !bg-[url('./images/bg_squares.png')]`}
         >

@@ -1,6 +1,7 @@
 export const s = {
   container:
-    "px-[3.5rem] md:px-[8.75rem] grid place-items-center w-full relative",
+    "px-[3.5rem] md:px-[8.75rem] py-10 grid place-items-center w-full relative",
+  title: "text-center mb-[5rem]",
   h1title: "text-6xl font-bold",
   h2title: "text-5xl font-bold",
   h2titleH: "text-5xl font-semibold",
@@ -10,6 +11,7 @@ export const s = {
   h6title: "text-xl font-bold",
   h6titleM: "text-xl font-medium",
   h7titleM: "text-xl font-medium",
+  h7titleUpper: "text-xl font-medium uppercase",
   p1medium: "text-2xl font-medium",
   p1heavy: "text-2xl font-semibold",
   p2heavy: "text-xl font-semibold",
@@ -23,5 +25,5 @@ export const s = {
   serviceBox: "p-[1.875rem] min-w-[26.875rem] box",
   serviceBox2: "p-[1.875rem] min-w-[26.875rem] box2",
   bgImage: "bg-center bg-no-repeat bg-cover",
-  image: "bg-center bg-no-repeat bg-contain"
+  image: "bg-center bg-no-repeat bg-contain",
 };

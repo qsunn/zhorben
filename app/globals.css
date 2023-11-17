@@ -31,11 +31,7 @@ body {
     3px 3px 6px 0px rgba(0, 0, 0, 0.15) inset,
     -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
     8px 8px 16px 0px rgba(0, 0, 0, 0.15);
-}
-
-.ellipse2 {
-  box-shadow: -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
-    8px 8px 16px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
 }
 
 .badge {
@@ -49,11 +45,13 @@ body {
 }
 
 .opacityGradient {
-  -webkit-mask-image: -webkit-gradient(linear,
-      right center,
-      right bottom,
-      from(rgba(0, 0, 0, 1)),
-      to(rgba(0, 0, 0, 0.2)));
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    right center,
+    right bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0.2))
+  );
 }
 
 .buttonBoxHeader {

@@ -55,8 +55,8 @@ export const Experts = () => {
   ];
   return (
     <section className={`${s.container} py-24`}>
-      <div className="w-full grid place-items-center grid-flow-row gap-16">
-        <h3 className={s.h3title}>Technology experts</h3>
+      <div className="w-full">
+        <h3 className={`${s.h3title} ${s.title}`}>Technology experts</h3>
         <ul className="w-full grid grid-cols-1 md:grid-cols-3 gap-5">
           {tech.map((t) => {
             return (
