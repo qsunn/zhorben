@@ -6,6 +6,7 @@ import { Discovery } from "./components/HomePage/Discovery";
 import { Offer } from "./components/HomePage/Offer";
 import { Based } from "./components/HomePage/Based";
 import { OurClients } from "./components/HomePage/OurClients";
+import { Reviews } from "./components/HomePage/Reviews";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Offer />
       <Based />
       <OurClients />
+      <Reviews />
     </main>
   );
 }

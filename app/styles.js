@@ -22,4 +22,6 @@ export const s = {
   text: "text-base text-[#5F6E90]",
   serviceBox: "p-[1.875rem] min-w-[26.875rem] box",
   serviceBox2: "p-[1.875rem] min-w-[26.875rem] box2",
+  bgImage: "bg-center bg-no-repeat bg-cover",
+  image: "bg-center bg-no-repeat bg-contain"
 };
