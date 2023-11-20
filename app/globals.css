@@ -16,6 +16,17 @@
   }
 }
 
+html {
+  font-size: 14px;
+}
+
+@media(min-width: 1536px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
 body {
   color: #2a354f;
   background: linear-gradient(153deg, #fff 0%, #efefef 56.77%);

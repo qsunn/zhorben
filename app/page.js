@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="w-full mx-auto">
       <Landing />
-      <WaysOfWork />
+      {/* <WaysOfWork />
       <OurServices />
       <Experts />
       <Discovery />
@@ -21,7 +21,7 @@ export default function Home() {
       <Based />
       <OurClients />
       <Reviews />
-      <CaseStudies />
+      <CaseStudies /> */}
     </main>
   );
 }

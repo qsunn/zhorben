@@ -15,29 +15,34 @@ export const Header = () => {
             {" "}
           </Link>
         </li>
-        <li>
+        <li className="hidden 2xl:block whitespace-nowrap">
           <Link href="about">About us</Link>
         </li>
-        <li>
+        <li className="hidden 2xl:block">
           <Link href="cases">Cases</Link>
         </li>
-        <li>
+        <li className="hidden 2xl:block">
           <Link href="services">Services</Link>
         </li>
-        <li>
+        <li className="hidden 2xl:block">
           <Link href="clients">Clients</Link>
         </li>
-        <li>
+        <li className="hidden 2xl:block">
           <Link href="career">Career</Link>
         </li>
-        <li>
+        <li className="hidden 2xl:block">
           <Link href="blog">Blog</Link>
         </li>
-        <li>
+        <li className="hidden 2xl:block">
           <Link href="contacts">Contacts</Link>
         </li>
-        <li>
-          <Button className="buttonBoxHeader" text="Let's chat" />
+        <li className="hidden 2xl:block">
+          <Button text="Let's chat" />
+        </li>
+        <li className="flex flex-col gap-1 items-center justify-center 2xl:hidden">
+          <div className="h-1 w-8 bg-blue" />
+          <div className="h-1 w-8 bg-blue" />
+          <div className="h-1 w-8 bg-blue" />
         </li>
       </ul>
     </header>

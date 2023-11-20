@@ -13,10 +13,10 @@ export const Landing = () => {
 
   return (
     <section
-      className={`${s.container} bg-no-repeat bg-right-top bg-auto pt-[16rem] pb-[3.75rem] bg-[url('./images/uzor.png')]`}
+      className={`${s.container} bg-no-repeat bg-center lg:bg-right-top bg-auto pt-[12rem] 2xl:pt-[16rem] 2xl:pb-[3.75rem] bg-[url('./images/uzor.png')]`}
     >
       <div className="w-full grid grid-flow-row">
-        <div className="max-w-[39.25rem] grid grid-flow-row gap-8 place-items-start mb-[15.75rem]">
+        <div className="max-w-[39.25rem] grid grid-flow-row gap-8 place-items-start mb-[12rem] 2xl:mb-[15.75rem]">
           <h2 className={s.h2titleH}>
             Build and scale your business fast with our world-class senior
             developers
@@ -27,7 +27,7 @@ export const Landing = () => {
           </p>
           <Button text="Let's chat" />
         </div>
-        <ul className={`grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-5`}>
+        <ul className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-5`}>
           {list.map((item) => (
             <li
               key={item}
