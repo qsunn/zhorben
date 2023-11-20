@@ -57,7 +57,7 @@ export const Experts = () => {
     <section className={`${s.container} py-24`}>
       <div className="w-full">
         <h3 className={`${s.h3title} ${s.title}`}>Technology experts</h3>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-3 gap-5">
+        <ul className="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-5">
           {tech.map((t) => {
             return (
               <li key={t} className="box p-8 flex flex-col gap-5">

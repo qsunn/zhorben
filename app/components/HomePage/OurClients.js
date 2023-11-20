@@ -7,7 +7,7 @@ export const OurClients = () => {
       <h3 className={`${s.h3title} ${s.title}`}>
         Our clients were featured on
       </h3>
-      <div className="grid grid-cols-1 md:grid-cols-4 grid-flow-row gap-y-28 gap-x-28">
+      <div className="grid grid-cols-2 md:grid-cols-4 grid-flow-row gap-y-28 gap-x-28">
         <div className="h-20 w-28 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_forbes.svg')]" />
         <div className="h-20 w-28 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_cnbc.svg')]" />
         <div className="h-20 w-28 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_venturebeat.svg')]" />

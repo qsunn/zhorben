@@ -42,7 +42,7 @@ export const Reviews = () => {
     rtl: true,
     mode: "snap",
     slides: {
-      origin: 'center',
+      origin: "center",
       perView: 3,
       spacing: 5,
     },
@@ -76,7 +76,7 @@ export const Reviews = () => {
             <button
               type="button"
               onClick={(e) =>
-                e.stopPropagation() || instanceRef.current?.prev()
+                e.stopPropagation() || instanceRef.current?.next()
               }
               className="ellipse bg-[#EFEFEF] p-3 absolute -left-16 top-1/2 -translate-y-1/2"
             >
@@ -86,7 +86,7 @@ export const Reviews = () => {
             <button
               type="button"
               onClick={(e) =>
-                e.stopPropagation() || instanceRef.current?.next()
+                e.stopPropagation() || instanceRef.current?.prev()
               }
               className="ellipse bg-[#EFEFEF] p-3 absolute -right-16 top-1/2 -translate-y-1/2"
             >

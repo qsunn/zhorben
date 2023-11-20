@@ -1,6 +1,6 @@
 export const s = {
   container:
-    "px-[3.5rem] 2xl:px-[8.75rem] py-10 grid place-items-center w-full relative",
+    "px-[1rem] sm:px-[3.5rem] 2xl:px-[8.75rem] py-10 grid place-items-center w-full relative",
   title: "text-center mb-[5rem]",
   h1title: "text-6xl font-bold",
   h2title: "text-5xl font-bold",

@@ -7,22 +7,21 @@ export const DiscoverySteps = () => {
     "Development plan and release schedule",
     "Development",
   ];
+
   return (
     <div>
-      <h6 className={`${s.h6title} my-[4rem]`}>
+      <h6 className={`${s.h6title} my-[4rem] text-center md:text-left`}>
         What we do during the discovery stage
       </h6>
       <div>
-        <ul className="grid grid-cols-1 md:grid-cols-5 grid-flow-row gap-5 relative">
-          {stages.map((item) => (
+        <ul className="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 grid-flow-row gap-5 relative">
+          {stages.map((item, i) => (
             <li
               key={item}
-              className={`box p-6 pt-[5rem] relative grid grid-flow-row justify-items-start items-start  text-left max-w-[25rem] ${s.p4medium} text-blue`}
+              className={`box p-6 pt-[5rem] relative grid grid-flow-row justify-items-start items-start text-left max-w-[25rem] ${s.p4medium} text-blue`}
             >
               <div className="ellipse bg-[#EFEFEF] flex  justify-center p-9 items-center max-h-[4.5rem] max-w-[4.5rem] absolute top-[-1rem] left-[1.5rem] z-50 ">
-                <h3 className={`${s.h3title}`}>
-                  {"0" + (stages.indexOf(item) + 1)}
-                </h3>
+                <h3 className={`${s.h3title}`}>{"0" + (i + 1)}</h3>
               </div>
               {item}
             </li>

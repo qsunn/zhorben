@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { s } from "../styles";
 import { Button } from "./Button";
+import { ArrowButton } from "./ArrowButton";
 
 export const Footer = () => {
   const footerData = [
@@ -48,7 +49,7 @@ export const Footer = () => {
     <footer className={`${s.container} py-16 md:py-16`}>
       <div>
         <ul
-          className={`w-full flex flex-row justify-between gap-40 ${s.p4medium}`}
+          className={`w-full flex flex-col justify-between gap-20 md:flex-row dm:gap-40 ${s.p4medium}`}
         >
           {footerData.map((item) => {
             return (
@@ -67,7 +68,10 @@ export const Footer = () => {
                       );
                     return (
                       <>
-                        <li key={link.name} className="text-grey hover:text-blue">
+                        <li
+                          key={link.name}
+                          className="text-grey hover:text-blue"
+                        >
                           <div className="flex flex-row gap-1">
                             <div className=" w-5 h-5 bg-center bg-no-repeat bg-auto bg-[url('./images/icon_on.svg')]" />
                             <Link href={link.href}>{link.name}</Link>

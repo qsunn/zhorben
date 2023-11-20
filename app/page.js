@@ -13,15 +13,15 @@ export default function Home() {
   return (
     <main className="w-full mx-auto">
       <Landing />
-      {/* <WaysOfWork />
-      <OurServices />
+      <WaysOfWork />
+      {/* <OurServices /> */}
       <Experts />
       <Discovery />
       <Offer />
-      <Based />
+      <Based /> {/* issues with bg image on small screen*/}
       <OurClients />
-      <Reviews />
-      <CaseStudies /> */}
+      {/* <Reviews /> */}
+      <CaseStudies /> {/* issues with the whole card on small screen*/}
     </main>
   );
 }
