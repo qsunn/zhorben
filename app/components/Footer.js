@@ -46,10 +46,10 @@ export const Footer = () => {
     },
   ];
   return (
-    <footer className={`${s.container} py-16 md:py-16`}>
-      <div>
+    <footer className={`${s.container} py-16`}>
+      <div className="w-full">
         <ul
-          className={`w-full flex flex-col justify-between gap-20 md:flex-row dm:gap-40 ${s.p4medium}`}
+          className={`w-full flex flex-col justify-between gap-20 lg:flex-row md:gap-40 ${s.p4medium}`}
         >
           {footerData.map((item) => {
             return (

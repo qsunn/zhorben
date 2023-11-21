@@ -24,8 +24,15 @@ html {
   html {
     font-size: 16px;
   }
-}
 
+  .opacityGradient {
+    -webkit-mask-image: -webkit-gradient(linear,
+        right center,
+        right bottom,
+        from(rgba(0, 0, 0, 1)),
+        to(rgba(0, 0, 0, 0.2)));
+  }
+}
 
 body {
   color: #2a354f;
@@ -58,14 +65,6 @@ body {
   padding: 10px;
   padding-top: 4px;
   padding-bottom: 4px;
-}
-
-.opacityGradient {
-  -webkit-mask-image: -webkit-gradient(linear,
-      right center,
-      right bottom,
-      from(rgba(0, 0, 0, 1)),
-      to(rgba(0, 0, 0, 0.2)));
 }
 
 .buttonBoxHeader {

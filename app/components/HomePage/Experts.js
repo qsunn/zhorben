@@ -54,7 +54,7 @@ export const Experts = () => {
     },
   ];
   return (
-    <section className={`${s.container} py-24`}>
+    <section className={`${s.container}`}>
       <div className="w-full">
         <h3 className={`${s.h3title} ${s.title}`}>Technology experts</h3>
         <ul className="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-5">
@@ -63,7 +63,7 @@ export const Experts = () => {
               <li key={t} className="box p-8 flex flex-col gap-5">
                 <h5 className={s.h5title}>{t.name}</h5>
                 <p className={`${s.p4book} text-grey`}>{t.desc}</p>
-                <ul className="w-full flex flex-wrap gap-x-2 gap-y-1">
+                <ul className="w-full flex flex-wrap gap-2">
                   {t.techs.map((tt) => (
                     <li key={tt} className={`${s.p4medium} badge`}>
                       {tt}

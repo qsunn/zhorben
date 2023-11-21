@@ -3,7 +3,7 @@ import { Button } from "../Button";
 
 export const WaysOfWork = () => {
   return (
-    <section className={`${s.container} py-20`}>
+    <section className={`${s.container}`}>
       <h3 className={`${s.h3title} ${s.title}`}>
         Convenient ways to work with us
       </h3>
