@@ -48,7 +48,7 @@ export const Solutions = () => {
         <ul className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-content-center gap-8">
           {solutions.map((t) => {
             return (
-              <li className="box2 p-8" key={t.name}>
+              <li className="box1 p-8" key={t.name}>
                 <h5 className={`${s.h5title} mb-4`}>{t.title}</h5>
                 <p className={`${s.p4book} text-grey`}>{t.desc}</p>
               </li>

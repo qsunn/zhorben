@@ -5,7 +5,7 @@ import { Button } from "./Button";
 export const Header = () => {
   return (
     <header
-      className={`${s.container} shadow1 bg-[#fff] border-b-[0.125rem] border-b-blue !py-8 !fixed top-0 left-0 z-50`}
+      className={`${s.container} shadow1 bg-[#fff] !py-8 !fixed top-0 left-0 z-50`}
     >
       <ul
         className={`w-full flex items-center justify-between gap-8 ${s.p4medium}`}

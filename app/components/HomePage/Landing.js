@@ -27,7 +27,7 @@ export const Landing = () => {
           </p>
           <Button text="Let's chat" />
         </div>
-        <ul className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-5`}>
+        <ul className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-4`}>
           {list.map((item) => (
             <li
               key={item}

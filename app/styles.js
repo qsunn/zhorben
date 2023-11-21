@@ -23,7 +23,7 @@ export const s = {
   p4book: "text-base font-normal",
   text: "text-base text-[#5F6E90]",
   serviceBox: "p-8 lg:min-w-[26.875rem] box1",
-  serviceBox2: "p-8 lg:min-w-[26.875rem] box2",
+  serviceBox2: "p-8 lg:min-w-[26.875rem] box1",
   bgImage: "bg-center bg-no-repeat bg-cover",
   image: "bg-center bg-no-repeat bg-contain",
 };

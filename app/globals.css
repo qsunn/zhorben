@@ -28,35 +28,22 @@ html {
 
 body {
   color: #2a354f;
-  background: linear-gradient(153deg, #fff 0%, #efefef 56.77%);
+  background: linear-gradient(153deg, #f6f6f6, #efefef 56.77%);
 }
 
 .shadow1 {
-  box-shadow: -0.125rem -0.125rem 0.25rem #ffffff73, 0.125rem 0.125rem 0.25rem #6e7a8f4d;
+  box-shadow: -0.125rem -0.125rem 0.25rem #f9f9f9, 0.125rem 0.125rem 0.25rem #6e7a8f4d;
 }
 
 .box1 {
-  border: 0.125rem solid #2A354F;
   background-color: #FFF;
   border-radius: 1rem;
-  transition: all .2s ease-in-out;
-  box-shadow: -0.25rem -0.25rem 0.5rem #ffffff73, 0.25rem 0.25rem 0.5rem #6e7a8f4d;
+  transition: all .4s ease-in-out;
+  box-shadow: -0.25rem -0.25rem 0.5rem #f9f9f9, 0.25rem 0.25rem 0.5rem #6e7a8f4d;
 }
 
 .box1:hover {
-  box-shadow: inset -0.25rem -0.25rem 0.5rem #ffffff73, inset 0.25rem 0.25rem 0.5rem #6e7a8f4d;
-}
-
-.box2 {
-  border: 0.125rem solid #2A354F;
-  background-color: #FFF;
-  border-radius: 1rem;
-  transition: all .2s ease-in-out;
-  box-shadow: inset -0.25rem -0.25rem 0.5rem #ffffff73, inset 0.25rem 0.25rem 0.5rem #6e7a8f4d;
-}
-
-.box2:hover {
-  box-shadow: -4px -4px 8px #ffffff73, 4px 4px 4px #6e7a8f4d;
+  box-shadow: -0.25rem -0.25rem 0.5rem #f9f9f9, 0.5rem 0.5rem 1rem #6672874d;
 }
 
 .navigation-wrapper {
