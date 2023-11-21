@@ -14,7 +14,7 @@ export default function Home() {
     <main className="w-full mx-auto">
       <Landing />
       <WaysOfWork />
-      {/* <OurServices /> */}
+      <OurServices />
       <Experts />
       <Discovery />
       <Offer />

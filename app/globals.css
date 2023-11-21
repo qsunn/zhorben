@@ -24,14 +24,6 @@ html {
   html {
     font-size: 16px;
   }
-
-  .opacityGradient {
-    -webkit-mask-image: -webkit-gradient(linear,
-        right center,
-        right bottom,
-        from(rgba(0, 0, 0, 1)),
-        to(rgba(0, 0, 0, 0.2)));
-  }
 }
 
 body {
@@ -39,76 +31,32 @@ body {
   background: linear-gradient(153deg, #fff 0%, #efefef 56.77%);
 }
 
-.listBox {
-  box-shadow: -10px -10px 15px 0px rgba(255, 255, 255, 0.9),
-    10px 10px 15px 0px rgba(0, 0, 0, 0.15);
+.shadow1 {
+  box-shadow: -0.125rem -0.125rem 0.25rem #ffffff73, 0.125rem 0.125rem 0.25rem #6e7a8f4d;
 }
 
-.ellipse {
-  box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 0.9) inset,
-    3px 3px 6px 0px rgba(0, 0, 0, 0.15) inset,
-    -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
-    8px 8px 16px 0px rgba(0, 0, 0, 0.15);
-  border-radius: 50%;
+.box1 {
+  border: 0.125rem solid #2A354F;
+  background-color: #FFF;
+  border-radius: 1rem;
+  transition: all .2s ease-in-out;
+  box-shadow: -0.25rem -0.25rem 0.5rem #ffffff73, 0.25rem 0.25rem 0.5rem #6e7a8f4d;
 }
 
-.ellipse:hover {
-  box-shadow: -6px -6px 8px 0px #fff inset,
-    6px 6px 8px 0px rgba(0, 0, 0, 0.15) inset;
-}
-
-.badge {
-  box-shadow: -1px -1px 1px 0px #fff inset,
-    1px 1px 1px 0px rgba(0, 0, 0, 0.15) inset;
-  border-radius: 15px;
-  background: #f4f4f4;
-  padding: 10px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.buttonBoxHeader {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 110%;
-  padding: 15px 25px;
-  border-radius: 30px;
-  background: #f2f2f2;
-  box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 0.9) inset,
-    3px 3px 6px 0px rgba(0, 0, 0, 0.1) inset, -8px -8px 10px 0px #fff,
-    8px 8px 10px 0px rgba(0, 0, 0, 0.15);
-}
-
-.buttonBox {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 110%;
-  padding: 13px 40px;
-  border-radius: 30px;
-  background: #efefef;
-  box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 0.9) inset,
-    3px 3px 6px 0px rgba(0, 0, 0, 0.1) inset, -8px -8px 10px 0px #fff,
-    8px 8px 10px 0px rgba(0, 0, 0, 0.15);
-}
-
-.box {
-  border-radius: 15px;
-  border: 1px solid #e0e0e0;
-  background: #efefef;
-  box-shadow: -10px -10px 15px 0px rgba(255, 255, 255, 0.9),
-    10px 10px 15px 0px rgba(0, 0, 0, 0.15);
+.box1:hover {
+  box-shadow: inset -0.25rem -0.25rem 0.5rem #ffffff73, inset 0.25rem 0.25rem 0.5rem #6e7a8f4d;
 }
 
 .box2 {
-  border-radius: 15px;
-  background: #efefef;
-  box-shadow: -6px -6px 8px 0px #fff inset,
-    6px 6px 8px 0px rgba(0, 0, 0, 0.15) inset;
+  border: 0.125rem solid #2A354F;
+  background-color: #FFF;
+  border-radius: 1rem;
+  transition: all .2s ease-in-out;
+  box-shadow: inset -0.25rem -0.25rem 0.5rem #ffffff73, inset 0.25rem 0.25rem 0.5rem #6e7a8f4d;
 }
 
-.buttonBox:hover {
-  box-shadow: -6px -6px 8px 0px #fff inset,
-    6px 6px 8px 0px rgba(0, 0, 0, 0.15) inset;
+.box2:hover {
+  box-shadow: -4px -4px 8px #ffffff73, 4px 4px 4px #6e7a8f4d;
 }
 
 .navigation-wrapper {
@@ -118,4 +66,12 @@ body {
 .photoBox {
   fill: #F3F3F3;
   box-shadow: -6px -6px 10px 0px #FFF inset, 6px 6px 8px 0px rgba(0, 0, 0, 0.10) inset;
+}
+
+.opacityGradient {
+  -webkit-mask-image: -webkit-gradient(linear,
+      right center,
+      right bottom,
+      from(rgba(0, 0, 0, 1)),
+      to(rgba(0, 0, 0, 0)));
 }

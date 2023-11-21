@@ -7,8 +7,8 @@ export const WaysOfWork = () => {
       <h3 className={`${s.h3title} ${s.title}`}>
         Convenient ways to work with us
       </h3>
-      <div className="grid place-items-center grid-flow-row gap-[3.75rem] w-full px-0 md:px-16">
-        <div className="px-10 py-[1.875rem] box w-full">
+      <div className="grid place-items-center grid-flow-row gap-12 w-full">
+        <div className="box1 w-full p-8">
           <h4 className={`${s.h4title} max-w-[12.375rem] mb-4`}>
             Team augmentation
           </h4>
@@ -18,7 +18,7 @@ export const WaysOfWork = () => {
           </p>
           <Button text="Let's chat" />
         </div>
-        <div className="px-10 py-[1.875rem] box w-full">
+        <div className="box1 w-full p-8">
           <h4 className={`${s.h4title}  max-w-[12.375rem] mb-4`}>
             Full-project development
           </h4>

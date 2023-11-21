@@ -2,11 +2,11 @@ import { s } from "@/app/styles";
 
 export const OurServices = () => {
   return (
-    <section className={`${s.container} pt-[3.75rem] pb-20`}>
+    <section className={`${s.container}`}>
       <div className="w-full grid grid-flow-row place-items-center gap-0">
         <h3 className={s.h3title}>Our services</h3>
-        <div className="grid grid-flow-col place-items-center gap-12">
-          <div className="grid grid-flow-row gap-32 mt-[16rem]">
+        <div className="grid lg:grid-cols-[4fr_1fr_4fr] place-items-center gap-8 lg:gap-12 w-full">
+          <div className="grid grid-flow-row gap-8 lg:gap-32 mt-[5rem] lg:mt-[16rem] w-full">
             <div className={s.serviceBox}>
               <h5 className={s.h5title}>
                 Back-end
@@ -33,8 +33,8 @@ export const OurServices = () => {
               </p>
             </div>
           </div>
-          <div className="w-[1.75rem] h-[41.75rem] bg-no-repeat bg-contain bg-center bg-[url('./images/our_services_tabs.png')]" />
-          <div className="grid grid-flow-row gap-32 mt-[-8rem]">
+          <div className="hidden lg:block w-[1.75rem] h-[41.75rem] bg-no-repeat bg-contain bg-center bg-[url('./images/our_services_tabs.png')]" />
+          <div className="grid grid-flow-row gap-8 lg:gap-32 lg:mt-[-8rem] w-full">
             <div className={s.serviceBox2}>
               <h5 className={`${s.h5title} mb-4`}>
                 Mobile
@@ -46,7 +46,7 @@ export const OurServices = () => {
                 React Native.
               </p>
             </div>
-            <div className={`${s.serviceBox} mt-[-4rem]`}>
+            <div className={`${s.serviceBox} lg:mt-[-4rem]`}>
               <h5 className={s.h5title}>
                 Front-end
                 <br />

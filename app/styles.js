@@ -1,6 +1,6 @@
 export const s = {
   container:
-    "px-[2rem] sm:px-[3.5rem] 2xl:px-[8.75rem] pt-10 pb-20 grid place-items-center w-full relative",
+    "px-[2rem] sm:px-[3.5rem] 2xl:px-16 pt-10 pb-20 grid place-items-center w-full relative",
   title: "text-center mb-[5rem]",
   h1title: "text-6xl font-bold",
   h2title: "text-5xl font-bold",
@@ -22,8 +22,8 @@ export const s = {
   p4medium: "text-base font-medium",
   p4book: "text-base font-normal",
   text: "text-base text-[#5F6E90]",
-  serviceBox: "p-[1.875rem] min-w-[26.875rem] box",
-  serviceBox2: "p-[1.875rem] min-w-[26.875rem] box2",
+  serviceBox: "p-8 lg:min-w-[26.875rem] box1",
+  serviceBox2: "p-8 lg:min-w-[26.875rem] box2",
   bgImage: "bg-center bg-no-repeat bg-cover",
   image: "bg-center bg-no-repeat bg-contain",
 };

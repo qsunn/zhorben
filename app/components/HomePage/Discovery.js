@@ -5,9 +5,9 @@ import { DiscoverySteps } from "./DiscoverySteps";
 export const Discovery = () => {
   return (
     <section
-      className={`${s.container} md:my-[3.5rem] bg-no-repeat bg-center bg-auto lg:bg-right lg:bg-contain  bg-[url('./images/bg_uzor.png')]`}
+      className={`${s.container} bg-no-repeat bg-center bg-auto lg:bg-right lg:bg-contain bg-[url('./images/bg_uzor.png')]`}
     >
-      <div className="w-full grid grid-flow-row">
+      <div className="w-full">
         <div className="max-w-[37.5rem] grid grid-flow-row gap-8 place-items-start">
           <h4 className={s.h4title}>
             Discovery stage is the most important part of the project

@@ -3,10 +3,10 @@ import { s } from "@/app/styles";
 export const Based = () => {
   return (
     <section
-      className={`${s.container} opacityGradient lg:pt-[8.5rem] lg:!pb-[19.5rem] !2xl:pb-[18rem] bg-no-repeat bg-[-20%_50%] bg-cover lg:bg-center lg:bg-auto lg:bg-[url('./images/Poland.png')]`}
+      className={`${s.container} opacityGradient pb-96 lg:pt-40 lg:pb-80 2xl:pt-36 2xl:pb-60 bg-no-repeat bg-left-top bg-auto lg:bg-center lg:bg-auto bg-[url('./images/Poland.png')]`}
     >
-      <div className={"w-full flex flex-col lg:items-end content-start gap-5"}>
-        <h3 className={`${s.h3title} text-center lg:text-left lg:max-w-[28rem] mt-6`}>
+      <div className={"w-full flex flex-col lg:items-end 2xl:items-center 2xl:pl-96 content-start gap-5"}>
+        <h3 className={`${s.h3title} text-center lg:text-left lg:max-w-[28rem]`}>
           We&apos;re based in Warsaw. We operate worldwide.
         </h3>
         <p className={`${s.p2medium} lg:max-w-[28rem] text-center lg:text-left text-grey`}>

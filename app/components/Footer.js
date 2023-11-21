@@ -62,7 +62,7 @@ export const Footer = () => {
                         <li key={link.bg}>
                           <Link
                             href={link.href}
-                            className={`block ellipse border-[1px] border-[#e0e0e0] bg-origin-padding !bg-auto h-8 w-8 p-6 ${s.bgImage} ${link.bg}`}
+                            className={`block box1 !rounded-full border-[1px] border-[#e0e0e0] bg-origin-padding !bg-auto h-8 w-8 p-6 ${s.bgImage} ${link.bg}`}
                           />
                         </li>
                       );
@@ -73,12 +73,12 @@ export const Footer = () => {
                           className="text-grey hover:text-blue"
                         >
                           <div className="flex flex-row gap-1">
-                            <div className=" w-5 h-5 bg-center bg-no-repeat bg-auto bg-[url('./images/icon_on.svg')]" />
+                            <div className="w-5 h-5 bg-center bg-no-repeat bg-auto bg-[url('./images/icon_on.svg')]" />
                             <Link href={link.href}>{link.name}</Link>
                           </div>
                         </li>
                         {item.title === "CASES" && arr.length - 1 === i && (
-                          <Button text="See more cases" />
+                          <Button text="See more cases" style="mt-2" />
                         )}
                       </>
                     );

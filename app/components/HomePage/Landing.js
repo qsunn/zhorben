@@ -13,10 +13,10 @@ export const Landing = () => {
 
   return (
     <section
-      className={`${s.container} bg-no-repeat bg-center lg:bg-right-top bg-auto pt-[12rem] 2xl:pt-[16rem] bg-[url('./images/uzor.png')]`}
+      className={`${s.container} bg-no-repeat bg-center lg:bg-right-top bg-auto pt-44 2xl:pt-56 bg-[url('./images/uzor.png')]`}
     >
       <div className="w-full grid grid-flow-row">
-        <div className="max-w-[39.25rem] grid grid-flow-row gap-8 place-items-start mb-[12rem] 2xl:mb-[15.75rem]">
+        <div className="max-w-[39.25rem] grid grid-flow-row gap-8 place-items-start mb-32 2xl:mb-56">
           <h2 className={s.h2titleH}>
             Build and scale your business fast with our world-class senior
             developers
@@ -31,7 +31,7 @@ export const Landing = () => {
           {list.map((item) => (
             <li
               key={item}
-              className={` listBox p-[2.625rem] rounded-[15px] bg-[#F5F5F5] grid place-items-center text-center ${s.p2heavy} `}
+              className={`box1 p-8 bg-[#F5F5F5] grid place-items-center text-center ${s.p2heavy}`}
             >
               {item}
             </li>
