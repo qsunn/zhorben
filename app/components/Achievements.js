@@ -1,5 +1,6 @@
 import { s } from "@/app/styles";
 import { Achievement } from "./Achievement";
+import { Button } from "../components/Button";
 
 export const Achievements = () => {
   return (
@@ -16,6 +17,9 @@ export const Achievements = () => {
           <Achievement />
           <Achievement />
           <Achievement />
+        </div>
+        <div className="flex place-content-center mt-10">
+          <Button text="More achievements" />
         </div>
       </div>
     </section>
