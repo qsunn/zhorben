@@ -61,10 +61,10 @@ export const AugDev = () => {
             return (
               <li
                 key={t}
-                className="box1 p-6 sm:p-8 flex flex-col place-content-between gap-8"
+                className="box1 p-8 flex flex-col place-content-between gap-8"
               >
                 <div className="flex flex-col gap-8">
-                  <div className="flex flex-row gap-5">
+                  <div className="flex flex-row gap-4">
                     <div
                       className={`${s.bgImage} shrink-0 bg-[url("./images/icon_portrait.svg")] h-12 w-12 rounded-full justify-center`}
                     />

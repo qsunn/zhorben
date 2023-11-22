@@ -66,20 +66,20 @@ export const FullDev = () => {
           and launch your project.
         </h6>
       </div>
-      <ul className="w-full flex flex-col gap-5">
+      <ul className="w-full flex flex-col gap-4">
         {tech.map((item) => {
           return (
             <li
               key={item}
-              className="box1 p-7 w-full flex flex-col md:flex-row gap-10"
+              className="box1 p-8 w-full flex flex-col md:flex-row gap-8"
             >
               <div
-                className={`${s.bgImage} place-self-center shrink-0 h-32 w-32 bg-[url('./images/icon_crossed_circles.svg')]`}
+                className={`${s.bgImage} place-self-start md:place-self-center shrink-0 h-32 w-32 bg-[url('./images/icon_crossed_circles.svg')]`}
               />
               <div className="flex flex-col gap-4">
                 <h4 className={s.h4title}>{item.name}</h4>
                 <p className={`${s.p4book} text-grey`}>{item.desc}</p>
-                <ul className="w-full flex flex-wrap gap-2 mb-4">
+                <ul className="w-full flex flex-wrap gap-4 mb-4">
                   {item.techs.map((tt) => (
                     <li
                       key={tt}
@@ -89,7 +89,7 @@ export const FullDev = () => {
                     </li>
                   ))}
                 </ul>
-                <div className="flex flex-row gap-3">
+                <div className="flex flex-row gap-4">
                   <Button style="w-[10rem]" text="Let`s chat" />
                 </div>
               </div>
