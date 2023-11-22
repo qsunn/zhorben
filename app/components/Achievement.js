@@ -2,7 +2,7 @@ import { s } from "@/app/styles";
 
 export const Achievement = () => {
   return (
-    <div className={`box1 p-4 sm:p-8 flex flex-row gap-4`}>
+    <div className={`box1 p-4 sm:p-8 flex flex-row gap-8`}>
       <div
         className={`${s.image} place-self-center h-8 w-9 bg-[url("./images/logo_laurels.svg")]`}
       />

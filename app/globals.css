@@ -28,7 +28,11 @@ html {
 
 body {
   color: #2a354f;
-  background: linear-gradient(153deg, #f6f6f6, #efefef 56.77%);
+  background: linear-gradient(138deg, #FFF -71.4%, #EFEFEF 36.51%);
+}
+
+header {
+  background: linear-gradient(138deg, #FFF -71.4%, #EFEFEF 36.51%);
 }
 
 .shadow1 {
@@ -36,14 +40,16 @@ body {
 }
 
 .box1 {
-  background-color: #FFF;
+  border: 1px solid #e0e0e0;
+  background-color: #efefef;
   border-radius: 1rem;
   transition: all .4s ease-in-out;
   box-shadow: -0.25rem -0.25rem 0.5rem #f9f9f9, 0.25rem 0.25rem 0.5rem #6e7a8f4d;
 }
 
-.box1:hover {
-  box-shadow: -0.25rem -0.25rem 0.5rem #f9f9f9, 0.5rem 0.5rem 1rem #6672874d;
+.box1:hover,
+.box1:focus {
+  box-shadow: -0.5rem -0.5rem 1rem #f9f9f9, 0.5rem 0.5rem 1rem #6e7a8f4d;
 }
 
 .navigation-wrapper {
