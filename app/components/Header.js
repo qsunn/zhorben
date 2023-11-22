@@ -10,10 +10,8 @@ export const Header = () => {
       <ul
         className={`w-full flex items-center justify-between gap-8 ${s.p4medium}`}
       >
-        <li className="bg-no-repeat bg-center bg-contain h-[1.625rem] w-[12.5rem] bg-[url('./images/zhorben_logo.svg')]">
-          <Link href="" className="w-full h-full">
-            {" "}
-          </Link>
+        <li>
+          <Link href="/" className="block bg-no-repeat bg-center bg-contain h-[1.625rem] w-[12.5rem] bg-[url('./images/zhorben_logo.svg')]" />
         </li>
         <li className="hidden lg:block whitespace-nowrap">
           <Link href="about">About us</Link>

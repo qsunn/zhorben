@@ -1,5 +1,5 @@
 import { s } from "@/app/styles";
-import { Button } from "../Button";
+import { Button } from "./Button";
 import { CaseCard } from "./CaseCard";
 
 export const CaseStudies = () => {

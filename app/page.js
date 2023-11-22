@@ -7,7 +7,8 @@ import { Offer } from "./components/HomePage/Offer";
 import { Based } from "./components/HomePage/Based";
 import { OurClients } from "./components/HomePage/OurClients";
 import { Reviews } from "./components/HomePage/Reviews";
-import { CaseStudies } from "./components/HomePage/CaseStudies";
+import { CaseStudies } from "./components/CaseStudies";
+import { Achievements } from "./components/Achievements";
 
 export default function Home() {
   return (
@@ -18,10 +19,11 @@ export default function Home() {
       <Experts />
       <Discovery />
       <Offer />
-      <Based /> {/* issues with bg image on small screen*/}
+      <Based />
       <OurClients />
       {/* <Reviews /> */}
-      <CaseStudies /> {/* issues with the whole card on small screen*/}
+      <CaseStudies />
+      <Achievements />
     </main>
   );
 }
