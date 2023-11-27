@@ -61,7 +61,7 @@ export const AnotherDiscovery = () => {
             </p>
           </div>
         </div>
-        <div className="box1 flex flex-col dm:flex-row px-8 py-4 xl:px-40 xl:py-12 gap-10">
+        <div className="box1 flex flex-col md:flex-row px-8 py-4 xl:px-40 xl:py-12 gap-10">
           <div
             className={`${s.bgImage} place-self-center shrink-0 h-32 w-32 bg-[url('./images/icon_crossed_circles.svg')]`}
           />

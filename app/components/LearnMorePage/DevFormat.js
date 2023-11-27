@@ -1,12 +1,11 @@
 import { s } from "@/app/styles";
 import { Button } from "../Button";
-import { DevCards } from "./DevCards";
 
 export const DevFormat = () => {
   return (
     <section className={s.container}>
       <div className="w-full">
-        <div className="">
+        <div className=" px-4 lg:px-10">
           <h3 className={`${s.h3title} ${s.title}`}>
             Development formats and billing
           </h3>
@@ -44,7 +43,6 @@ export const DevFormat = () => {
               <Button style="max-w-[10rem]" text="Let's chat" />
             </div>
           </div>
-          <DevCards />
         </div>
       </div>
     </section>

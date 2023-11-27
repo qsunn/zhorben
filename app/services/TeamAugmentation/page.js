@@ -1,6 +1,7 @@
 import { AnotherDiscovery } from "@/app/components/LearnMorePage/AnotherDiscovery";
 import { Application } from "@/app/components/LearnMorePage/Application";
 import { Approaches } from "@/app/components/LearnMorePage/Approaches";
+import { DevCards } from "@/app/components/LearnMorePage/DevCards";
 import { DevFormat } from "@/app/components/LearnMorePage/DevFormat";
 import { Launch } from "@/app/components/LearnMorePage/Launch";
 import { LearnLanding } from "@/app/components/LearnMorePage/LearnLanding";
@@ -16,6 +17,7 @@ export default function Blog() {
       <Stages />
       <AnotherDiscovery />
       <DevFormat />
+      <DevCards />
       <WholeSolution />
       <Stack />
       <Application />
