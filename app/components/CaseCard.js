@@ -8,7 +8,7 @@ export const CaseCard = ({ item }) => {
         <h4 className={s.h4title}>{"We have developed " + item.title}</h4>
         <ul className="w-full flex flex-wrap gap-2">
           {item.techs.map((t) => (
-            <li key={t} className={`${s.p4medium} text-grey p-2 border-[0.125rem] border-blue !rounded-full`}>
+            <li key={t} className={`${s.p4medium} badge text-grey`}>
               {t}
             </li>
           ))}

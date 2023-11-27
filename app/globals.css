@@ -20,7 +20,7 @@ html {
   font-size: 14px;
 }
 
-@media(min-width: 1536px) {
+@media (min-width: 1536px) {
   html {
     font-size: 16px;
   }
@@ -28,22 +28,23 @@ html {
 
 body {
   color: #2a354f;
-  background: linear-gradient(138deg, #FFF -71.4%, #EFEFEF 36.51%);
+  background: linear-gradient(138deg, #fff -71.4%, #efefef 36.51%);
 }
 
 header {
-  background: linear-gradient(138deg, #FFF -71.4%, #EFEFEF 36.51%);
+  background: linear-gradient(138deg, #fff -71.4%, #efefef 36.51%);
 }
 
 .shadow1 {
-  box-shadow: -0.125rem -0.125rem 0.25rem #f9f9f9, 0.125rem 0.125rem 0.25rem #6e7a8f4d;
+  box-shadow: -0.125rem -0.125rem 0.25rem #f9f9f9,
+    0.125rem 0.125rem 0.25rem #6e7a8f4d;
 }
 
 .box1 {
   border: 1px solid #e0e0e0;
   background-color: #efefef;
   border-radius: 1rem;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   box-shadow: -0.25rem -0.25rem 0.5rem #f9f9f9, 0.25rem 0.25rem 0.5rem #6e7a8f4d;
 }
 
@@ -51,20 +52,40 @@ header {
 .box1:focus {
   box-shadow: -0.5rem -0.5rem 1rem #f9f9f9, 0.5rem 0.5rem 1rem #6e7a8f4d;
 }
+.box2 {
+  border-radius: 0px 15px 15px 0px;
+  background: #efefef;
+
+  box-shadow: -6px -6px 8px 0px #fff inset,
+    6px 6px 8px 0px rgba(0, 0, 0, 0.1) inset;
+}
+.badge {
+  border-radius: 16px;
+  background: #f4f4f4;
+  box-shadow: -1px -1px 1px 0px #fff inset,
+    1px 1px 1px 0px rgba(0, 0, 0, 0.15) inset;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.85rem;
+  padding-right: 0.85rem;
+}
 
 .navigation-wrapper {
   position: relative;
 }
 
 .photoBox {
-  fill: #F3F3F3;
-  box-shadow: -6px -6px 10px 0px #FFF inset, 6px 6px 8px 0px rgba(0, 0, 0, 0.10) inset;
+  fill: #f3f3f3;
+  box-shadow: -6px -6px 10px 0px #fff inset,
+    6px 6px 8px 0px rgba(0, 0, 0, 0.1) inset;
 }
 
 .opacityGradient {
-  -webkit-mask-image: -webkit-gradient(linear,
-      right center,
-      right bottom,
-      from(rgba(0, 0, 0, 1)),
-      to(rgba(0, 0, 0, 0)));
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    right center,
+    right bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
 }

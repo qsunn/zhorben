@@ -65,7 +65,7 @@ export const Experts = () => {
                 <p className={`${s.p4book} text-grey`}>{t.desc}</p>
                 <ul className="w-full flex flex-wrap gap-2">
                   {t.techs.map((tt) => (
-                    <li key={tt} className={`${s.p4medium} border-[0.125rem] border-blue !rounded-full p-2`}>
+                    <li key={tt} className={`${s.p4medium} badge`}>
                       {tt}
                     </li>
                   ))}

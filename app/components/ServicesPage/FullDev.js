@@ -81,10 +81,7 @@ export const FullDev = () => {
                 <p className={`${s.p4book} text-grey`}>{item.desc}</p>
                 <ul className="w-full flex flex-wrap gap-4 mb-4">
                   {item.techs.map((tt) => (
-                    <li
-                      key={tt}
-                      className={`${s.p4medium} border-[0.125rem] border-blue !rounded-full p-2`}
-                    >
+                    <li key={tt} className={`${s.p4medium} badge`}>
                       {tt}
                     </li>
                   ))}
