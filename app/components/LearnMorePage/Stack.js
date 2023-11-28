@@ -33,33 +33,33 @@ export const Stack = () => {
 
           <div className="flex flex-col gap-5 items-center">
             <div
-              className={`${s.image} h-12 w-12 bg-[url('./images/logo_apple.svg')]`}
+              className={`${s.image} h-12 w-12 bg-[url('./images/logo_cplus.svg')]`}
             />
-            <h6 className={s.h6titleM}>Objective C</h6>
+            <h6 className={s.h6titleM}>C++</h6>
           </div>
           <div className="flex flex-col gap-5 items-center">
             <div
-              className={`${s.image} h-12 w-12 bg-[url('./images/logo_apple.svg')]`}
+              className={`${s.image} h-12 w-12 bg-[url('./images/logo_js.svg')]`}
             />
-            <h6 className={s.h6titleM}>iOS SDK</h6>
+            <h6 className={s.h6titleM}>JavaScript</h6>
           </div>
           <div className="flex flex-col gap-5 items-center">
             <div
-              className={`${s.image} h-12 w-12 bg-[url('./images/logo_react.svg')]`}
+              className={`${s.image} h-12 w-12 bg-[url('./images/logo_php.svg')]`}
             />
-            <h6 className={s.h6titleM}>React Native</h6>
+            <h6 className={s.h6titleM}>PHP</h6>
           </div>
           <div className="flex flex-col gap-5 items-center">
             <div
-              className={`${s.image} h-12 w-12 bg-[url('./images/logo_apple.svg')]`}
+              className={`${s.image} h-12 w-12 bg-[url('./images/logo_python.svg')]`}
             />
-            <h6 className={s.h6titleM}>Objective C</h6>
+            <h6 className={s.h6titleM}>Python</h6>
           </div>
           <div className="flex flex-col gap-5 items-center">
             <div
-              className={`${s.image} h-12 w-12 bg-[url('./images/logo_android.svg')]`}
+              className={`${s.image} h-12 w-12 bg-[url('./images/logo_sql.svg')]`}
             />
-            <h6 className={s.h6titleM}>Android SDK/NDK</h6>
+            <h6 className={s.h6titleM}>SQL</h6>
           </div>
         </div>
       </div>
