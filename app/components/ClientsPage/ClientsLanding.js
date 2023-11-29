@@ -38,7 +38,7 @@ export const ClientsLanding = () => {
                 className={`${s.bgImage} h-10 w-10 place-self-center flex-none bg-[url('./images/icon_suitcase.svg')]`}
               />
             </div>
-            <p className={`${s.p5medium} text-grey`}>projects launched</p>
+            <p className={`${s.p5medium} text-secondary-light dark:text-secondary-dark`}>projects launched</p>
             <p className={s.p0medium}>1100+</p>
           </div>
           <div className="flex flex-col items-center">
@@ -47,7 +47,7 @@ export const ClientsLanding = () => {
                 className={`${s.bgImage} h-10 w-10 place-self-center flex-none bg-[url('./images/icon_filled_people.svg')]`}
               />
             </div>
-            <p className={`${s.p5medium} text-grey`}>satisfied clients</p>
+            <p className={`${s.p5medium} text-secondary-light dark:text-secondary-dark`}>satisfied clients</p>
             <p className={s.p0medium}>450+</p>
           </div>
           <div className="flex flex-col items-center">
@@ -56,7 +56,7 @@ export const ClientsLanding = () => {
                 className={`${s.bgImage} h-10 w-10 place-self-center flex-none bg-[url('./images/icon_puzzle.svg')]`}
               />
             </div>
-            <p className={`${s.p5medium} text-grey`}>years of experience</p>
+            <p className={`${s.p5medium} text-secondary-light dark:text-secondary-dark`}>years of experience</p>
             <p className={s.p0medium}>14+</p>
           </div>
         </div>

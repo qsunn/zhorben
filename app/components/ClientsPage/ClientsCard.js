@@ -10,7 +10,7 @@ export const ClientsCard = ({ img, title, logo, desc }) => {
       <div
         className={`${s.image} ${logo} h-20 w-28 hidden sm:flex transition-all hover:scale-125`}
       />
-      <p className={`${s.p4medium} text-grey`}>{desc}</p>
+      <p className={`${s.p4medium} text-secondary-light dark:text-secondary-dark`}>{desc}</p>
     </div>
   );
 };

@@ -1,3 +1,5 @@
+"use client"
+import { ThemeProvider } from "next-themes";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import "./globals.css";
@@ -16,9 +18,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
+        <ThemeProvider attribute="class">
+          <Header />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

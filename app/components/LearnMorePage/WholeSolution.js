@@ -8,7 +8,7 @@ export const WholeSolution = () => {
         <h3 className={`${s.h3title} text-center`}>
           Our whole-solution approach
         </h3>
-        <h6 className={`${s.h6titleM} text-center text-grey sm:px-8 lg:px-16`}>
+        <h6 className={`${s.h6titleM} text-center text-secondary-light dark:text-secondary-dark sm:px-8 lg:px-16`}>
           The Zhorben development team doesn&apos;t just code product functions.
           We give you our expertise and experience to help your solution
           succeed. We suggest ideas, build dynamically and flexibly, see you

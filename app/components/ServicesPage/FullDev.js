@@ -61,7 +61,7 @@ export const FullDev = () => {
     <section className={s.container}>
       <div className="w-full flex flex-col content-center gap-8">
         <h2 className={`${s.h2title} text-center`}>Full-project development</h2>
-        <h6 className={`${s.h6titleM} ${s.title} text-grey`}>
+        <h6 className={`${s.h6titleM} ${s.title} text-secondary-light dark:text-secondary-dark`}>
           Hire a team of dedicated professionals necessary to design, develop
           and launch your project.
         </h6>
@@ -78,7 +78,7 @@ export const FullDev = () => {
               />
               <div className="flex flex-col gap-4">
                 <h4 className={s.h4title}>{item.name}</h4>
-                <p className={`${s.p4book} text-grey`}>{item.desc}</p>
+                <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>{item.desc}</p>
                 <ul className="w-full flex flex-wrap gap-4 mb-4">
                   {item.techs.map((tt) => (
                     <li key={tt} className={`${s.p4medium} badge`}>

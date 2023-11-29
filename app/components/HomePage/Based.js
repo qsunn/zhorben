@@ -9,7 +9,7 @@ export const Based = () => {
         <h3 className={`${s.h3title} text-center lg:text-left lg:max-w-[28rem]`}>
           We&apos;re based in Warsaw. We operate worldwide.
         </h3>
-        <p className={`${s.p2medium} lg:max-w-[28rem] text-center lg:text-left text-grey`}>
+        <p className={`${s.p2medium} lg:max-w-[28rem] text-center lg:text-left text-secondary-light dark:text-secondary-dark`}>
           No matter where you are in North America, Europe, or Asia, our teams
           work effectively and efficiently on your schedule. We adjust our
           business processes to make our partnership smooth for you.

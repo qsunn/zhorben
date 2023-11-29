@@ -13,7 +13,7 @@ export const DevCards = () => {
           </div>
           <div className="flex flex-col">
             <h6 className={s.h6title}>UI/UX design, prototyping</h6>
-            <p className={`${s.p4book} text-grey`}>
+            <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
               Your user interface (UI) and user experience (UX) are keys to your
               success. Our UI development process is dynamic and iterative,
               based on prototypes, user feedback, and analytics that let us see
@@ -31,7 +31,7 @@ export const DevCards = () => {
           </div>
           <div className="flex flex-col">
             <h6 className={s.h6title}>Automated QA and testing</h6>
-            <p className={`${s.p4book} text-grey`}>
+            <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
               Automated quality assurance and testing are best practices in
               software development. We implement QA automation solutions and
               testing tools because they yield significant advantages for our
@@ -50,7 +50,7 @@ export const DevCards = () => {
             <h6 className={`${s.h6title}`}>
               Adherence to industry best practices and technology standards
             </h6>
-            <p className={`${s.p4book} text-grey`}>
+            <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
               Your user interface (UI) and user experience (UX) are keys to your
               success. Our UI development process is dynamic and iterative,
               based on prototypes, user feedback, and analytics that let us see
@@ -71,7 +71,7 @@ export const DevCards = () => {
               Compliance with security standards <br />
               and policies
             </h6>
-            <p className={`${s.p4book} text-grey`}>
+            <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
               We follow industry best practices to meet each client&apos;s
               security needs. We can help you comply with security standards and
               regulations such as SOC 2, PCI DSS, GDPR, and HIPAA. We also
@@ -88,7 +88,7 @@ export const DevCards = () => {
         <h3 className={`${s.h3title} text-center`}>
           Analytics and product optimization
         </h3>
-        <h6 className={`${s.h6titleM} text-grey text-center`}>
+        <h6 className={`${s.h6titleM} text-secondary-light dark:text-secondary-dark text-center`}>
           To add greater value to your business, we use analytics to refine your
           product and maximize your return on investment. We make data-driven
           decisions on UI/UX impact, content, and process flow. And we could

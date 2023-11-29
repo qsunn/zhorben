@@ -7,7 +7,7 @@ export const ServicesLanding = () => {
       <div className="w-full pt-20 lg:pt-48 flex flex-col">
         <h2 className={`${s.h1title} text-center mb-8`}>Our services</h2>
         <p
-          className={`${s.h6titleM} ${s.title} place-self-center text-grey max-w-[43rem]`}
+          className={`${s.h6titleM} ${s.title} place-self-center text-secondary-light dark:text-secondary-dark max-w-[43rem]`}
         >
           In Zhorben we turn your business needs and product ideas into digital
           solutions, starting from mobile applications to sophisticated
@@ -20,7 +20,7 @@ export const ServicesLanding = () => {
               <h4 className={`${s.h4title} mb-4`}>
                 Team augmentation
               </h4>
-              <p className={`${s.p4medium} text-grey mb-8`}>
+              <p className={`${s.p4medium} text-secondary-light dark:text-secondary-dark mb-8`}>
                 Hire an individual or a custom group of professionals that will
                 be formed by us and will become a dedicated part of your team.
               </p>
@@ -32,7 +32,7 @@ export const ServicesLanding = () => {
               <h4 className={`${s.h4title} mb-4`}>
                 Full-project development
               </h4>
-              <p className={`${s.p4medium} text-grey mb-8`}>
+              <p className={`${s.p4medium} text-secondary-light dark:text-secondary-dark mb-8`}>
                 Hire a team of dedicated professionals necessary to design,
                 develop and launch your project.
               </p>

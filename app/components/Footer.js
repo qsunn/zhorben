@@ -55,14 +55,14 @@ export const Footer = () => {
             return (
               <li key={item.title} className="">
                 <h6 className={`${s.h7titleUpper} mb-7`}>{item.title}</h6>
-                <ul className="flex flex-col gap-6">
+                <ul className="flex flex-col gap-6 items-start">
                   {item.links.map((link, i, arr) => {
                     if (item.title === "SOCIAL")
                       return (
-                        <li key={link.bg}>
+                        <li key={link.bg} className="box1 !rounded-full !p-1 grid place-items-center">
                           <Link
                             href={link.href}
-                            className={`block box1 !rounded-full border-[1px] border-[#e0e0e0] bg-origin-padding !bg-auto h-8 w-8 p-6 ${s.bgImage} ${link.bg}`}
+                            className={`h-8 w-8 ${s.image} ${link.bg}`}
                           />
                         </li>
                       );
@@ -70,7 +70,7 @@ export const Footer = () => {
                       <>
                         <li
                           key={link.name}
-                          className="text-grey hover:text-blue"
+                          className="text-secondary-light dark:text-secondary-dark hover:text-primary-light dark:hover:text-primary-dark"
                         >
                           <div className="flex flex-row gap-1">
                             <div className="w-5 h-5 bg-center bg-no-repeat bg-auto bg-[url('./images/icon_on.svg')]" />

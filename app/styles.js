@@ -1,6 +1,6 @@
 export const s = {
   container:
-    "px-[2rem] sm:px-[3.5rem] 2xl:px-16 pt-10 pb-20 grid place-items-center w-full relative",
+    "px-[2rem] sm:px-[3.5rem] 2xl:px-16 pt-10 pb-20 grid place-items-center w-full relative text-primary-light dark:text-primary-dark",
   title: "text-center mb-[5rem]",
   h1title: "text-6xl font-bold",
   h2title: "text-5xl font-bold",

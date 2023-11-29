@@ -1,8 +1,11 @@
 import Link from "next/link";
 import { s } from "../styles";
 import { Button } from "./Button";
+import { useTheme } from "next-themes";
 
 export const Header = () => {
+  const { theme, setTheme } = useTheme()
+  const isDark = theme === 'dark'
   return (
     <header
       className={`${s.container} shadow1 bg-[#fff] !py-8 !fixed top-0 left-0 z-50`}
@@ -29,10 +32,10 @@ export const Header = () => {
           <Link href="career">Career</Link>
         </li>
         <li className="hidden lg:block">
-          <Link href="blog">Blog</Link>
-        </li>
-        <li className="hidden lg:block">
           <Link href="contacts">Contacts</Link>
+        </li>
+        <li className="hidden box1 p-2 rounded-full lg:grid place-items-center">
+          <button className={`${s.image} !fill-primary-light w-4 h-4 ${isDark ? "bg-[url('./images/icon_moon.svg')]" : "bg-[url('./images/icon_sun.svg')]"}`} onClick={() => setTheme(isDark ? 'light' : 'dark')} />
         </li>
         <li className="hidden lg:block">
           <Button text="Let's chat" style="!px-8 !py-1 !text-base" />

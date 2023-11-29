@@ -21,7 +21,7 @@ export const Landing = () => {
             Build and scale your business fast with our world-class senior
             developers
           </h2>
-          <p className={`${s.p1medium} text-grey max-w-[32.875rem]`}>
+          <p className={`${s.p1medium} text-secondary-light dark:text-secondary-dark max-w-[32.875rem]`}>
             Hire our full-time team of senior developers to launch, accelerate
             and support your business applications. Mobile. Web. AI.
           </p>
@@ -31,7 +31,7 @@ export const Landing = () => {
           {list.map((item) => (
             <li
               key={item}
-              className={`box1 p-8 bg-[#F5F5F5] grid place-items-center text-center ${s.p2heavy}`}
+              className={`box1 p-8 grid place-items-center text-center ${s.p2heavy}`}
             >
               {item}
             </li>

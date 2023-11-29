@@ -50,12 +50,12 @@ export const Application = () => {
     <section className={s.container}>
       <div className="w-full">
         <h3 className={`${s.h3title} ${s.title}`}>Application types</h3>
-        <ul className="flex flex-row gap-4 flex-wrap lg:px-16 place-items-center justify-center">
+        <ul className="w-full flex flex-row gap-4 flex-wrap place-items-center justify-center">
           {applications.map((item) => {
             return (
               <li
                 key={item}
-                className="box1 lg:min-w-[17rem] min-w-[17rem] p-5 flex flex-row gap-4 items-center"
+                className="box1 whitespace-nowrap flex-0 p-5 flex flex-row gap-4 items-center"
               >
                 <div className={`${item.icon}`} />
                 <p className={s.p3heavy}>{item.title}</p>

@@ -8,7 +8,7 @@ export const Keynote = () => {
         <div className={`box1 p-8 flex flex-col items-center gap-4`}>
           <h3 className={`${s.h3title}`}>Our keynote</h3>
           <p
-            className={`${s.p4medium} text-grey mb-2 max-w-[18rem] sm:max-w-full`}
+            className={`${s.p4medium} text-secondary-light dark:text-secondary-dark mb-2 max-w-[18rem] sm:max-w-full`}
           >
             Check out our keynote to find more about our team and how we
             operate.

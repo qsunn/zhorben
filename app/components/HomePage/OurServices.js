@@ -27,7 +27,7 @@ export const OurServices = () => {
                 <br />
                 Augmentation
               </h5>
-              <p className={`${s.p4book} text-grey max-w-[14rem]`}>
+              <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark max-w-[14rem]`}>
                 Hire an individual or let us put together a custom group of
                 professionals who become a dedicated extension of your team.
               </p>
@@ -41,7 +41,7 @@ export const OurServices = () => {
                 <br />
                 Development
               </h5>
-              <p className={`${s.p4book} text-grey max-w-[14rem]`}>
+              <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark max-w-[14rem]`}>
                 We are experts in iOS and Android native development, as well as
                 React Native.
               </p>

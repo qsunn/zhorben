@@ -50,7 +50,7 @@ export const Solutions = () => {
             return (
               <li className="box1 p-8" key={t.name}>
                 <h5 className={`${s.h5title} mb-4`}>{t.title}</h5>
-                <p className={`${s.p4book} text-grey`}>{t.desc}</p>
+                <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>{t.desc}</p>
               </li>
             );
           })}

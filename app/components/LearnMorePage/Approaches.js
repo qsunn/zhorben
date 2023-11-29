@@ -34,9 +34,9 @@ export const Approaches = () => {
                 <div
                   className={`${s.bgImage} place-self-center lg:place-self-start shrink-0 h-32 w-32 bg-[url('./images/icon_crossed_circles.svg')]`}
                 />
-                <div classNAme="flex flex-col justify-between gap-5">
+                <div className="flex flex-col justify-between gap-5">
                   <h5 className={`${s.h5title}`}>{item.title}</h5>
-                  <p className={`${s.p4book} text-grey`}>{item.desc}</p>
+                  <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>{item.desc}</p>
                 </div>
               </li>
             );

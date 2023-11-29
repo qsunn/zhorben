@@ -36,14 +36,14 @@ export const OurTeam = () => {
                   className={`w-24 h-24 rounded-full absolute top-[-2rem] left-[2rem] z-10 ${s.image} ${t.photo}`}
                 />
                 <p className={`${s.p2heavy}`}>{t.name}</p>
-                <p className={`${s.p2book} text-grey mb-4`}>{t.position}</p>
+                <p className={`${s.p2book} text-secondary-light dark:text-secondary-dark mb-4`}>{t.position}</p>
                 <div className="flex flex-row gap-2 mb-4">
                   <div className="h-8 w-8 bg-[url('./images/social_twitter.svg')]" />
                   <div className="h-8 w-8 bg-[url('./images/social_facebook.svg')]" />
                   <div className="h-8 w-8 bg-[url('./images/social_linkedin.svg')]" />
                   <div className="h-8 w-8 bg-[url('./images/social_instagram.svg')]" />
                 </div>
-                <p className={`${s.p3medium} text-grey`}>
+                <p className={`${s.p3medium} text-secondary-light dark:text-secondary-dark`}>
                   {t.about}
                 </p>
               </li>

@@ -8,7 +8,7 @@ import { Stack } from "@/app/components/LearnMorePage/Stack";
 import { Stages } from "@/app/components/LearnMorePage/Stages";
 import { WholeSolution } from "@/app/components/LearnMorePage/WholeSolution";
 
-export default function Blog() {
+export default function Mobile() {
   return (
     <main className="w-full mx-auto">
       <LearnLanding />

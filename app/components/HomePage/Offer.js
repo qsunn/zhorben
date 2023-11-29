@@ -12,11 +12,11 @@ export const Offer = () => {
           >
             <div className="w-5 h-6 bg-center bg-no-repeat bg-cover bg-[url('./images/icon_calc.svg')]" />
             <h5 className={`${s.h5title} max-w-[6rem] `}>Transparent billing</h5>
-            <p className={`${s.p2book} text-grey max-w-[26rem]`}>
+            <p className={`${s.p2book} text-secondary-light dark:text-secondary-dark max-w-[26rem]`}>
               Hire an individual or a custom group of professionals that will be
               formed by us and will become a dedicated part of your team.
             </p>
-            <p className={`${s.p2book} text-grey max-w-[26rem]`}>
+            <p className={`${s.p2book} text-secondary-light dark:text-secondary-dark max-w-[26rem]`}>
               Mobile developers, back-end developers, front-end developers,
               software architects, QA engineers, UI designers, project managers,
               business analysts, DevOps engineers.

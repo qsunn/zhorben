@@ -18,7 +18,7 @@ export const DiscoverySteps = () => {
           {stages.map((item, i) => (
             <li
               key={item}
-              className={`box1 w-full p-8 pt-20 relative grid grid-flow-row justify-items-start items-start text-left ${s.p4medium} text-blue`}
+              className={`box1 w-full p-8 pt-20 relative grid grid-flow-row justify-items-start items-start text-left ${s.p4medium} text-primary-light dark:text-primary-dark`}
             >
               <div className="box1 !rounded-full flex justify-center p-8 items-center max-h-[4.5rem] max-w-[4.5rem] absolute top-[-1rem] left-[1.5rem] z-10 ">
                 <h3 className={`${s.h3title}`}>{"0" + (i + 1)}</h3>

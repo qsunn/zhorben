@@ -25,7 +25,7 @@ export const Stages = () => {
       <div className="w-full">
         <div className=" w-full sm:w-[50%]">
           <h3 className={s.h3title}>Project Stages and Flow</h3>
-          <h6 className={`${s.h6titleM} text-grey mt-4 mb-8`}>
+          <h6 className={`${s.h6titleM} text-secondary-light dark:text-secondary-dark mt-4 mb-8`}>
             Based on your current project stage, we will propose the most
             effective plan to achieve your objectives—within your timeframe and
             budget.
@@ -42,12 +42,12 @@ export const Stages = () => {
                 key={item}
                 className={`lg:min-w-[26.875rem] box1 flex flex-col pr-8 py-8 gap-4`}
               >
-                <div classNAme="flex flex-col gap-5">
+                <div className="flex flex-col gap-5">
                   <h2 className={`${s.h2title} ml-8`}>{"0" + (i + 1)}</h2>
                   <h6 className={`${s.h6title} ml-8`}>{item.title}</h6>
                 </div>
                 <div className="box2 py-4 px-8">
-                  <p className={`${s.p4book} text-grey`}>{item.desc}</p>
+                  <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>{item.desc}</p>
                 </div>
               </li>
             );

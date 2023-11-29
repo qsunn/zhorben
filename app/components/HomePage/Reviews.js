@@ -78,7 +78,7 @@ export const Reviews = () => {
               onClick={(e) =>
                 e.stopPropagation() || instanceRef.current?.next()
               }
-              className="box1 rounded-full bg-[#EFEFEF] p-3 absolute -left-16 top-1/2 -translate-y-1/2"
+              className="box1 rounded-full p-3 absolute -left-16 top-1/2 -translate-y-1/2"
             >
               <div className="h-[1.25rem] w-[1.25rem] bg-center bg-no-repeat bg-contain bg-[url('./images/icon_arrow_left.svg')]" />
             </button>
@@ -88,7 +88,7 @@ export const Reviews = () => {
               onClick={(e) =>
                 e.stopPropagation() || instanceRef.current?.prev()
               }
-              className="box1 rounded-full bg-[#EFEFEF] p-3 absolute -right-16 top-1/2 -translate-y-1/2"
+              className="box1 rounded-full p-3 absolute -right-16 top-1/2 -translate-y-1/2"
             >
               <div className="h-[1.25rem] w-[1.25rem] bg-center bg-no-repeat bg-contain bg-[url('./images/icon_arrow_right.svg')]" />
             </button>

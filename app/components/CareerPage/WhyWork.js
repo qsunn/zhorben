@@ -12,7 +12,7 @@ export const WhyWork = () => {
             />
             <div className="flex flex-col gap-2">
               <h6 className={s.h6title}>Great experience and opportunity</h6>
-              <p className={`${s.p4book} text-grey`}>
+              <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
                 You will work on fast-forward projects in Silicon Valley
                 utilizing latest technologies, methodologies, frameworks and
                 approaches with the ability and time to learn and develop
@@ -26,7 +26,7 @@ export const WhyWork = () => {
             />
             <div className="flex flex-col gap-2">
               <h6 className={s.h6title}>Great company culture</h6>
-              <p className={`${s.p4book} text-grey`}>
+              <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
                 We care about you and take an interest in your personal and
                 professional goals and motivation, so that we can help build a
                 perfect work/life balance.
@@ -41,7 +41,7 @@ export const WhyWork = () => {
               <h6 className={s.h6title}>
                 Professional and harmonious team of friends
               </h6>
-              <p className={`${s.p4book} text-grey`}>
+              <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
                 Our team is a second family, where you can enjoy spending the
                 day working on satisfying projects with great people with broad
                 interests.
@@ -54,7 +54,7 @@ export const WhyWork = () => {
             />
             <div className="flex flex-col gap-2">
               <h6 className={s.h6title}>A vast field for growth</h6>
-              <p className={`${s.p4book} text-grey`}>
+              <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
                 Learn continuously, expand your skills and demonstrate your
                 professional level and ability to take more responsibility to
                 grow.

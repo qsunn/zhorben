@@ -52,7 +52,7 @@ export const AugDev = () => {
     <section className={s.container}>
       <div className="w-full">
         <h2 className={`${s.h2title} text-center mb-8`}>Team augmentation</h2>
-        <h6 className={`${s.h6titleM} ${s.title} text-grey`}>
+        <h6 className={`${s.h6titleM} ${s.title} text-secondary-light dark:text-secondary-dark`}>
           Hire an individual or a custom group of professionals that will be
           formed by us and will become a dedicated part of your team.
         </h6>

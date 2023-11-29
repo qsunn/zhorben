@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 html {
   font-size: 14px;
 }
@@ -27,38 +13,59 @@ html {
 }
 
 body {
-  color: #2a354f;
-  background: linear-gradient(138deg, #fff -71.4%, #efefef 36.51%);
+  background: linear-gradient(138deg, #fff -71.4%, #f4f4f4 36.51%);
+}
+
+.dark body {
+  background: linear-gradient(103deg, #06080F 32.97%, #3E4253 185.82%);
 }
 
 header {
-  background: linear-gradient(138deg, #fff -71.4%, #efefef 36.51%);
+  background: linear-gradient(138deg, #fff -71.4%, #f4f4f4 36.51%);
+}
+
+.dark header {
+  background: linear-gradient(103deg, #06080F 32.97%, #3E4253 185.82%);
 }
 
 .shadow1 {
-  box-shadow: -0.125rem -0.125rem 0.25rem #f9f9f9,
-    0.125rem 0.125rem 0.25rem #6e7a8f4d;
+  box-shadow: -0.125rem -0.125rem 0.25rem #fff, 0.125rem 0.125rem 0.25rem #8591a64d;
 }
 
 .box1 {
-  border: 1px solid #e0e0e0;
-  background-color: #efefef;
+  background-color: #f4f4f4;
   border-radius: 1rem;
   transition: all 0.4s ease-in-out;
-  box-shadow: -0.25rem -0.25rem 0.5rem #f9f9f9, 0.25rem 0.25rem 0.5rem #6e7a8f4d;
+  box-shadow: -0.125rem -0.125rem 0.25rem #fff, 0.125rem 0.125rem 0.25rem #8591a64d;
 }
 
 .box1:hover,
 .box1:focus {
-  box-shadow: -0.5rem -0.5rem 1rem #f9f9f9, 0.5rem 0.5rem 1rem #6e7a8f4d;
+  transform: scale(1.001);
+  box-shadow: -0.25rem -0.25rem 0.5rem #fff, 0.325rem 0.325rem 0.75rem #6f7a8e4d;
 }
+
+.dark .box1 {
+  background: linear-gradient(123deg, #06080F 65.8%, #13161F 100%);
+  box-shadow: -0.125rem -0.125rem 0.25rem #6f7a8e4d, 0.125rem 0.125rem 0.25rem #000;
+}
+
+
+.dark .box1:hover,
+.dark .box1:focus {
+  transform: scale(1.001);
+  box-shadow: -0.25rem -0.25rem 0.5rem #6f7a8e4d, 0.325rem 0.325rem 0.75rem #000;
+
+}
+
 .box2 {
-  border-radius: 0px 15px 15px 0px;
-  background: #efefef;
+  border-radius: 0rem 1rem 1rem 0rem;
+  background: #f4f4f4;
 
   box-shadow: -6px -6px 8px 0px #fff inset,
     6px 6px 8px 0px rgba(0, 0, 0, 0.1) inset;
 }
+
 .badge {
   border-radius: 16px;
   background: #f4f4f4;
@@ -66,26 +73,23 @@ header {
     1px 1px 1px 0px rgba(0, 0, 0, 0.15) inset;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  padding-left: 0.85rem;
-  padding-right: 0.85rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .navigation-wrapper {
   position: relative;
 }
 
-.photoBox {
-  fill: #f3f3f3;
-  box-shadow: -6px -6px 10px 0px #fff inset,
-    6px 6px 8px 0px rgba(0, 0, 0, 0.1) inset;
-}
-
 .opacityGradient {
-  -webkit-mask-image: -webkit-gradient(
-    linear,
-    right center,
-    right bottom,
-    from(rgba(0, 0, 0, 1)),
-    to(rgba(0, 0, 0, 0))
-  );
+  mask-image: (linear,
+      right center,
+      right bottom,
+      from(rgba(0, 0, 0, 1)),
+      to(rgba(0, 0, 0, 0)));
+  -webkit-mask-image: -webkit-gradient(linear,
+      right center,
+      right bottom,
+      from(rgba(0, 0, 0, 1)),
+      to(rgba(0, 0, 0, 0)));
 }

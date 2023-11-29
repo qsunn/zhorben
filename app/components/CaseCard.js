@@ -8,13 +8,13 @@ export const CaseCard = ({ item }) => {
         <h4 className={s.h4title}>{"We have developed " + item.title}</h4>
         <ul className="w-full flex flex-wrap gap-2">
           {item.techs.map((t) => (
-            <li key={t} className={`${s.p4medium} badge text-grey`}>
+            <li key={t} className={`${s.p4medium} badge text-secondary-light dark:text-secondary-dark`}>
               {t}
             </li>
           ))}
         </ul>
         <div className={item.logo} />
-        <p className={`${s.p4medium} text-grey mb-2`}>{item.desc}</p>
+        <p className={`${s.p4medium} text-secondary-light dark:text-secondary-dark mb-2`}>{item.desc}</p>
         <Button text="See case study" />
       </div>
       <div

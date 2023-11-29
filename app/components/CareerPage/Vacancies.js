@@ -32,7 +32,7 @@ export const Vacancies = () => {
                 className="box1 px-10 py-8 flex flex-col place-content-between gap-2"
               >
                 <h6 className={s.h6title}>{t.position}</h6>
-                <p className={`${s.p3book} text-grey`}>{t.location}</p>
+                <p className={`${s.p3book} text-secondary-light dark:text-secondary-dark`}>{t.location}</p>
               </li>
             );
           })}
