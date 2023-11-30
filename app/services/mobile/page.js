@@ -1,12 +1,13 @@
-import { AnotherDiscovery } from "@/app/components/LearnMorePage/AnotherDiscovery";
-import { Application } from "@/app/components/LearnMorePage/Application";
-import { Approaches } from "@/app/components/LearnMorePage/Approaches";
-import { DevFormat } from "@/app/components/LearnMorePage/DevFormat";
-import { Launch } from "@/app/components/LearnMorePage/Launch";
-import { LearnLanding } from "@/app/components/LearnMorePage/LearnLanding";
-import { Stack } from "@/app/components/LearnMorePage/Stack";
-import { Stages } from "@/app/components/LearnMorePage/Stages";
-import { WholeSolution } from "@/app/components/LearnMorePage/WholeSolution";
+import { AnotherDiscovery } from "@/app/components/MobPage/AnotherDiscovery";
+import { Application } from "@/app/components/MobPage/Application";
+import { Approaches } from "@/app/components/MobPage/Approaches";
+import { DevCards } from "@/app/components/MobPage/DevCards";
+import { DevFormat } from "@/app/components/MobPage/DevFormat";
+import { Launch } from "@/app/components/MobPage/Launch";
+import { LearnLanding } from "@/app/components/MobPage/LearnLanding";
+import { Stack } from "@/app/components/MobPage/Stack";
+import { Stages } from "@/app/components/MobPage/Stages";
+import { WholeSolution } from "@/app/components/MobPage/WholeSolution";
 
 export default function Mobile() {
   return (
@@ -16,6 +17,7 @@ export default function Mobile() {
       <Stages />
       <AnotherDiscovery />
       <DevFormat />
+      <DevCards />
       <WholeSolution />
       <Stack />
       <Application />

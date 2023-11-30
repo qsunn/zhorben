@@ -23,7 +23,7 @@ export const Stages = () => {
   return (
     <section className={s.container}>
       <div className="w-full">
-        <div className=" w-full sm:w-[50%]">
+        <div className=" w-full sm:w-[50%] mb-16">
           <h3 className={s.h3title}>Project Stages and Flow</h3>
           <h6 className={`${s.h6titleM} text-secondary-light dark:text-secondary-dark mt-4 mb-8`}>
             Based on your current project stage, we will propose the most

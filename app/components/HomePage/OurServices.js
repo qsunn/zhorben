@@ -6,7 +6,7 @@ export const OurServices = () => {
       <div className="w-full grid grid-flow-row place-items-center gap-0">
         <h3 className={s.h3title}>Our services</h3>
         <div className="grid lg:grid-cols-[4fr_1fr_4fr] place-items-center gap-8 lg:gap-12 w-full">
-          <div className="grid grid-flow-row gap-8 lg:gap-32 mt-[5rem] lg:mt-[16rem] w-full">
+          <div className="grid grid-flow-row gap-8 lg:gap-32 mt-[5rem] lg:mt-[12rem] w-full">
             <div className={s.serviceBox}>
               <h5 className={s.h5title}>
                 Back-end
@@ -33,7 +33,7 @@ export const OurServices = () => {
               </p>
             </div>
           </div>
-          <div className="hidden lg:block w-[1.75rem] h-[41.75rem] bg-no-repeat bg-contain bg-center bg-[url('./images/our_services_tabs.png')]" />
+          <div className="hidden lg:block w-[1.75rem] h-[41.75rem] bg-no-repeat bg-contain bg-center bg-[url('./images/our_services_tabs.png')] dark:bg-[url('./images/our_services_tabs_dark.png')]" />
           <div className="grid grid-flow-row gap-8 lg:gap-32 lg:mt-[-8rem] w-full">
             <div className={s.serviceBox2}>
               <h5 className={`${s.h5title} mb-4`}>

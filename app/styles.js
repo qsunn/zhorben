@@ -1,8 +1,9 @@
 export const s = {
   container:
-    "px-[2rem] sm:px-[3.5rem] 2xl:px-16 pt-10 pb-20 grid place-items-center w-full relative text-primary-light dark:text-primary-dark",
-  title: "text-center mb-[5rem]",
-  h1title: "text-6xl font-bold",
+    "px-8 sm:px-14 2xl:px-16 pt-10 pb-20 grid place-items-center w-full relative text-primary-light dark:text-primary-dark",
+  landing: "pt-40 xl:pt-48",
+  title: "text-center mb-16 md:mb-[5rem]",
+  h1title: "text-5xl sm:text-6xl font-bold",
   h2title: "text-5xl font-bold",
   h2titleH: "text-5xl font-semibold",
   h3title: "text-4xl font-bold",
@@ -26,7 +27,7 @@ export const s = {
   p4book: "text-base font-normal",
   p5medium: "text-sm font-medium",
   p5book: "text-sm font-normal",
-  text: "text-base text-[#5F6E90]",
+  text: "text-base text-secondary-light dark:text-secondary-dark",
   serviceBox: "p-8 lg:min-w-[26.875rem] box1",
   serviceBox2: "p-8 lg:min-w-[26.875rem] box1",
   bgImage: "bg-center bg-no-repeat bg-cover",

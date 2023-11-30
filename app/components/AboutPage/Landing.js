@@ -2,8 +2,8 @@ import { s } from "@/app/styles";
 
 export const Landing = () => {
   return (
-    <section className={s.container}>
-      <div className="max-w-[64%] flex flex-col gap-8 pt-36 2xl:pt-44">
+    <section className={`${s.container} ${s.landing}`}>
+      <div className="flex flex-col gap-8">
         <h2 className={`${s.h2titleH} text-center mb-2`}>
           Top professionals for turning your business idea into a real software
           solution, web service platform, mobile application, SaaS, AI

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { s } from "../styles";
 import { Button } from "./Button";
-import { ArrowButton } from "./ArrowButton";
 
 export const Footer = () => {
   const footerData = [
@@ -31,7 +30,6 @@ export const Footer = () => {
         { name: "About Us", href: "#" },
         { name: "Clients", href: "#" },
         { name: "Career ", href: "#" },
-        { name: "Blog", href: "#" },
         { name: "Contacts", href: "#" },
       ],
     },
@@ -72,7 +70,7 @@ export const Footer = () => {
                           key={link.name}
                           className="text-secondary-light dark:text-secondary-dark hover:text-primary-light dark:hover:text-primary-dark"
                         >
-                          <div className="flex flex-row gap-1">
+                          <div className="flex flex-row items-center gap-1">
                             <div className="w-5 h-5 bg-center bg-no-repeat bg-auto bg-[url('./images/icon_on.svg')]" />
                             <Link href={link.href}>{link.name}</Link>
                           </div>

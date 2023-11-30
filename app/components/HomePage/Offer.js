@@ -8,7 +8,7 @@ export const Offer = () => {
         <h3 className={`${s.h3title} ${s.title}`}>What do we offer?</h3>
         <div className={"w-full grid gap-8 grid-flow-row lg:grid-flow-col"}>
           <div
-            className={`box1 w-full p-8 flex flex-col gap-4 bg-center bg-no-repeat !bg-cover !bg-[url('./images/bg_squares.png')]`}
+            className={`box1 w-full p-8 flex flex-col gap-4 !bg-left-top !bg-no-repeat !bg-auto !bg-[url('./images/bg_squares.png')] dark:!bg-[url('./images/bg_squares_dark.png')]`}
           >
             <div className="w-5 h-6 bg-center bg-no-repeat bg-cover bg-[url('./images/icon_calc.svg')]" />
             <h5 className={`${s.h5title} max-w-[6rem] `}>Transparent billing</h5>

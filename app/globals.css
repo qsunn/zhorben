@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary-light: #f4f4f4;
+  --primary-dark: #06080F;
+  --secondary-light: #6f7a8e4d;
+  --secondary-dark: #3E4253;
+  --additional: #0F111A;
+}
+
 html {
   font-size: 14px;
 }
@@ -12,69 +22,75 @@ html {
   }
 }
 
-body {
-  background: linear-gradient(138deg, #fff -71.4%, #f4f4f4 36.51%);
-}
-
-.dark body {
-  background: linear-gradient(103deg, #06080F 32.97%, #3E4253 185.82%);
-}
-
+body,
 header {
-  background: linear-gradient(138deg, #fff -71.4%, #f4f4f4 36.51%);
+  background: linear-gradient(138deg, var(--white) -72%, var(--primary-light) 36%);
 }
 
+.dark body,
 .dark header {
-  background: linear-gradient(103deg, #06080F 32.97%, #3E4253 185.82%);
+  background: linear-gradient(103deg, var(--primary-dark) 32%, var(--secondary-dark) 184%);
 }
 
 .shadow1 {
-  box-shadow: -0.125rem -0.125rem 0.25rem #fff, 0.125rem 0.125rem 0.25rem #8591a64d;
+  box-shadow: -0.125rem -0.125rem 0.25rem var(--white), 0.125rem 0.125rem 0.25rem var(--secondary-light);
+}
+
+.dark .shadow1 {
+  box-shadow: -0.25rem -0.25rem 0.5rem var(--secondary-light), 0.325rem 0.325rem 0.75rem var(--black);
 }
 
 .box1 {
-  background-color: #f4f4f4;
+  background-color: var(--primary-light);
   border-radius: 1rem;
   transition: all 0.4s ease-in-out;
-  box-shadow: -0.125rem -0.125rem 0.25rem #fff, 0.125rem 0.125rem 0.25rem #8591a64d;
+  box-shadow: -0.125rem -0.125rem 0.25rem var(--white), 0.125rem 0.125rem 0.25rem var(--secondary-light);
 }
 
 .box1:hover,
 .box1:focus {
-  transform: scale(1.001);
-  box-shadow: -0.25rem -0.25rem 0.5rem #fff, 0.325rem 0.325rem 0.75rem #6f7a8e4d;
+  box-shadow: -0.25rem -0.25rem 0.5rem var(--white), 0.325rem 0.325rem 0.75rem var(--secondary-light);
 }
 
 .dark .box1 {
-  background: linear-gradient(123deg, #06080F 65.8%, #13161F 100%);
-  box-shadow: -0.125rem -0.125rem 0.25rem #6f7a8e4d, 0.125rem 0.125rem 0.25rem #000;
+  background: linear-gradient(90deg, #0C0E16 0%, #10121B 100%);
+  box-shadow: -0.125rem -0.125rem 0.25rem var(--secondary-light), 0.125rem 0.125rem 0.25rem var(--black);
 }
 
 
 .dark .box1:hover,
 .dark .box1:focus {
-  transform: scale(1.001);
-  box-shadow: -0.25rem -0.25rem 0.5rem #6f7a8e4d, 0.325rem 0.325rem 0.75rem #000;
-
+  box-shadow: -0.25rem -0.25rem 0.5rem var(--secondary-light), 0.325rem 0.325rem 0.75rem var(--black);
 }
 
 .box2 {
   border-radius: 0rem 1rem 1rem 0rem;
-  background: #f4f4f4;
-
-  box-shadow: -6px -6px 8px 0px #fff inset,
+  background: var(--primary-light);
+  box-shadow: -6px -6px 8px 0px var(--white) inset,
     6px 6px 8px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+.dark .box2 {
+  background: linear-gradient(123deg, #06080F 64%, #13161F 100%);
+  box-shadow: -6px -6px 8px 0px var(--secondary-light) inset,
+    6px 6px 8px 0px rgba(0, 0, 0, 1) inset;
 }
 
 .badge {
   border-radius: 16px;
-  background: #f4f4f4;
-  box-shadow: -1px -1px 1px 0px #fff inset,
+  background: var(--primary-light);
+  box-shadow: -1px -1px 1px 0px var(--white) inset,
     1px 1px 1px 0px rgba(0, 0, 0, 0.15) inset;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.dark .badge {
+  background: var(--additional);
+  box-shadow: -1px -1px 1px 0px var(--secondary-light) inset,
+    1px 1px 1px 0px rgba(0, 0, 0, 1) inset;
 }
 
 .navigation-wrapper {

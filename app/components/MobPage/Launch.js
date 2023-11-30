@@ -17,17 +17,17 @@ export const Launch = () => {
             <Button text="Let's chat" />
           </div>
           <div
-            className={`${s.image} hidden md:flex flex-none place-self-center w-48 h-48 sm:pt-40 !bg-[url('./images/uzor.png')]`}
+            className={`${s.image} hidden md:flex flex-none place-self-center w-48 h-48 sm:pt-40 !bg-[url('./images/uzor.png')] dark:!bg-[url('./images/uzor_dark.png')]`}
           />
         </div>
-        <div className="flex flex-col items-center lg:flex-row gap-5">
+        <div className="grid grid-flow-row md:grid-flow-col gap-5">
           <div
             className={`rounded-2xl border-[1px] border-primary-light dark:border-primary-dark flex flex-row p-5 gap-4`}
           >
-            <div
-              className={`${s.bgImage} hidden sm:flex justify-self-start self-center shrink-0 h-32 w-32 bg-[url('./images/icon_crossed_circles.svg')]`}
-            />
             <div className="flex flex-col gap-4">
+              <div
+                className={`${s.bgImage} hidden sm:flex justify-self-start shrink-0 h-32 w-32 bg-[url('./images/icon_crossed_circles.svg')] dark:bg-[url('./images/icon_crossed_circles_dark.svg')]`}
+              />
               <h6 className={`${s.h6title}`}>Google Play / Apple App Store</h6>
               <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
                 We know how to organize and manage the entire launch process
@@ -43,10 +43,10 @@ export const Launch = () => {
           <div
             className={`rounded-2xl border-[1px] border-primary-light dark:border-primary-dark flex flex-row p-5 gap-4`}
           >
-            <div
-              className={`${s.bgImage} hidden sm:flex justify-self-start self-center shrink-0 h-32 w-32 bg-[url('./images/icon_crossed_circles.svg')]`}
-            />
-            <div className="flex flex-col justify-between gap-5">
+            <div className="flex flex-col gap-4">
+              <div
+                className={`${s.bgImage} hidden sm:flex justify-self-start shrink-0 h-32 w-32 bg-[url('./images/icon_crossed_circles.svg')] dark:bg-[url('./images/icon_crossed_circles_dark.svg')]`}
+              />
               <h5 className={`${s.h5title}`}>CI/CD for deployment</h5>
               <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
                 Product development doesn&apos;t end with launch. We apply the

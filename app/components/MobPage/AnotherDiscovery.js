@@ -5,7 +5,7 @@ export const AnotherDiscovery = () => {
   return (
     <section className={`${s.container} md:mt-16 2xl:mt-32`}>
       <div className="relative">
-        <div className={`${s.image} hidden md:block absolute -top-32 left-0 -z-10 w-full h-[32rem] bg-[url('./images/bg_curved_trapezoid.png')]`} />
+        <div className={`${s.image} hidden md:block absolute -top-32 left-0 -z-10 w-full h-[32rem] bg-[url('./images/bg_curved_trapezoid.png')] dark:bg-[url('./images/bg_curved_trapezoid_dark.png')]`} />
         <div className="flex flex-col gap-4 items-start mb-10 sm:pl-32 2xl:pl-56">
           <h3 className={`${s.h3title}`}>Discovery Stage</h3>
           <h6 className={`${s.h6titleM} text-secondary-light dark:text-secondary-dark`}>
@@ -14,8 +14,8 @@ export const AnotherDiscovery = () => {
           </h6>
           <Button text="Request a quote" />
         </div>
-        <div className="box2 grid grid-cols-1 lg:grid-cols-4 px-12 py-8 mb-10">
-          <div className="flex flex-col gap-4 p-5">
+        <div className="box2 !rounded-[1rem] grid grid-cols-1 lg:grid-cols-4 gap-6 px-12 py-8 mb-12">
+          <div className="flex flex-col gap-4">
             <h1 className={s.h1title}>1.01</h1>
             <h6 className={s.h6title}>PRD (Documentation)</h6>
             <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
@@ -25,7 +25,7 @@ export const AnotherDiscovery = () => {
               plan all stages of your product development.
             </p>
           </div>
-          <div className="flex flex-col gap-4 p-5">
+          <div className="flex flex-col gap-4">
             <h1 className={s.h1title}>1.02</h1>
             <h6 className={s.h6title}>Wireframes</h6>
             <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
@@ -35,7 +35,7 @@ export const AnotherDiscovery = () => {
               and demonstrate to your investors and business partners.
             </p>
           </div>
-          <div className="flex flex-col gap-4 p-5">
+          <div className="flex flex-col gap-4">
             <h1 className={s.h1title}>1.03</h1>
             <h6 className={s.h6title}>R&D</h6>
             <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
@@ -45,7 +45,7 @@ export const AnotherDiscovery = () => {
               development.
             </p>
           </div>
-          <div className="flex flex-col gap-4 p-5 ">
+          <div className="flex flex-col gap-4">
             <h1 className={s.h1title}>1.04</h1>
             <h6 className={s.h6title}>Product strategy</h6>
             <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>
@@ -58,11 +58,11 @@ export const AnotherDiscovery = () => {
             </p>
           </div>
         </div>
-        <div className="box1 flex flex-col md:flex-row px-8 py-4 xl:px-40 xl:py-12 gap-10">
+        <div className="box1 flex flex-col md:flex-row items-center p-8 xl:px-40 xl:py-12 gap-4">
           <div
-            className={`${s.bgImage} place-self-center shrink-0 h-32 w-32 bg-[url('./images/icon_crossed_circles.svg')]`}
+            className={`${s.image} place-self-center shrink-0 h-32 w-32 bg-[url('./images/icon_crossed_circles.svg')] dark:bg-[url('./images/icon_crossed_circles_dark.svg')]`}
           />
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 text-center md:text-start">
             <h5 className={s.h5title}>
               Q: Already have a PRD, wireframe, or initial design?
             </h5>

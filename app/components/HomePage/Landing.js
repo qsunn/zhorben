@@ -13,7 +13,7 @@ export const Landing = () => {
 
   return (
     <section
-      className={`${s.container} bg-no-repeat bg-center lg:bg-right-top bg-auto pt-44 2xl:pt-56 bg-[url('./images/uzor.png')]`}
+      className={`${s.container} ${s.landing} bg-no-repeat bg-right-top bg-auto bg-[url('./images/uzor.png')] dark:bg-[url('./images/uzor_dark.png')]`}
     >
       <div className="w-full grid grid-flow-row">
         <div className="max-w-[39.25rem] grid grid-flow-row gap-8 place-items-start mb-32 2xl:mb-56">

@@ -52,10 +52,10 @@ export const AugDev = () => {
     <section className={s.container}>
       <div className="w-full">
         <h2 className={`${s.h2title} text-center mb-8`}>Team augmentation</h2>
-        <h6 className={`${s.h6titleM} ${s.title} text-secondary-light dark:text-secondary-dark`}>
+        <p className={`${s.h6titleM} ${s.title} text-secondary-light dark:text-secondary-dark`}>
           Hire an individual or a custom group of professionals that will be
           formed by us and will become a dedicated part of your team.
-        </h6>
+        </p>
         <ul className="w-full grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {tech.map((t) => {
             return (
@@ -64,7 +64,7 @@ export const AugDev = () => {
                 className="box1 p-8 flex flex-col place-content-between gap-8"
               >
                 <div className="flex flex-col gap-8">
-                  <div className="flex flex-row gap-4">
+                  <div className="flex items-center gap-4">
                     <div
                       className={`${s.bgImage} shrink-0 bg-[url("./images/icon_portrait.svg")] h-12 w-12 rounded-full justify-center`}
                     />

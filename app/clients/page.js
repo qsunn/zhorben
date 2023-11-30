@@ -4,7 +4,7 @@ import { OurClients } from "../components/HomePage/OurClients";
 
 export default function Clients() {
   return (
-    <main className="w-full mx-auto pt-44">
+    <main className="w-full mx-auto">
       <ClientsLanding />
       <ClientsCards />
       <OurClients />

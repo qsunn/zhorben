@@ -13,7 +13,7 @@ const logos = [
 ];
 export const ClientsLanding = () => {
   return (
-    <section className={s.container}>
+    <section className={`${s.container} ${s.landing}`}>
       <div className="w-full flex flex-col gap-10 items-center">
         <h2 className={`${s.h2title} text-center`}>
           Success project stories with our clients

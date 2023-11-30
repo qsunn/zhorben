@@ -29,12 +29,12 @@ export const Approaches = () => {
             return (
               <li
                 key={item}
-                className={`${s.serviceBox} flex flex-col lg:flex-row p-5 gap-4`}
+                className={`${s.serviceBox} flex flex-col items-center lg:flex-row !p-4 gap-4`}
               >
                 <div
-                  className={`${s.bgImage} place-self-center lg:place-self-start shrink-0 h-32 w-32 bg-[url('./images/icon_crossed_circles.svg')]`}
+                  className={`${s.image} shrink-0 place-self-center lg:place-self-start h-32 w-32 bg-[url('./images/icon_crossed_circles.svg')] dark:bg-[url('./images/icon_crossed_circles_dark.svg')]`}
                 />
-                <div className="flex flex-col justify-between gap-5">
+                <div className="flex flex-col gap-4 text-center lg:text-start">
                   <h5 className={`${s.h5title}`}>{item.title}</h5>
                   <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark`}>{item.desc}</p>
                 </div>

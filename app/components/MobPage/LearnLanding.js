@@ -3,8 +3,8 @@ import { Button } from "../Button";
 
 export const LearnLanding = () => {
   return (
-    <section className={s.container}>
-      <div className="w-full flex flex-col items-center gap-8 pt-20 2xl:pt-36">
+    <section className={`${s.container} ${s.landing}`}>
+      <div className="w-full flex flex-col items-center gap-8">
         <Button style="mb-8" text="Mobile Development" />{" "}
         {/*Is it a button or just rounded box?*/}
         <p className={`${s.p0bold} text-center`}>

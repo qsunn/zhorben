@@ -17,22 +17,22 @@ export const Header = () => {
           <Link href="/" className="block bg-no-repeat bg-center bg-contain h-[1.625rem] w-[12.5rem] bg-[url('./images/zhorben_logo.svg')]" />
         </li>
         <li className="hidden lg:block whitespace-nowrap">
-          <Link href="about">About us</Link>
+          <Link href="/about">About us</Link>
         </li>
         <li className="hidden lg:block">
-          <Link href="cases">Cases</Link>
+          <Link href="/cases">Cases</Link>
         </li>
         <li className="hidden lg:block">
-          <Link href="services">Services</Link>
+          <Link href="/services">Services</Link>
         </li>
         <li className="hidden lg:block">
-          <Link href="clients">Clients</Link>
+          <Link href="/clients">Clients</Link>
         </li>
         <li className="hidden lg:block">
-          <Link href="career">Career</Link>
+          <Link href="/career">Career</Link>
         </li>
         <li className="hidden lg:block">
-          <Link href="contacts">Contacts</Link>
+          <Link href="/contacts">Contacts</Link>
         </li>
         <li className="hidden box1 p-2 rounded-full lg:grid place-items-center">
           <button className={`${s.image} !fill-primary-light w-4 h-4 ${isDark ? "bg-[url('./images/icon_moon.svg')]" : "bg-[url('./images/icon_sun.svg')]"}`} onClick={() => setTheme(isDark ? 'light' : 'dark')} />

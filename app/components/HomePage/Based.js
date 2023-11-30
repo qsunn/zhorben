@@ -3,7 +3,7 @@ import { s } from "@/app/styles";
 export const Based = () => {
   return (
     <section
-      className={`${s.container} opacityGradient pb-96 lg:pt-40 lg:pb-80 2xl:pt-36 2xl:pb-60 bg-no-repeat bg-left-top bg-auto lg:bg-center lg:bg-auto bg-[url('./images/Poland.png')]`}
+      className={`${s.container} opacityGradient pb-96 lg:pt-40 lg:pb-80 2xl:pt-36 2xl:pb-60 bg-no-repeat bg-left-top bg-auto lg:bg-center lg:bg-auto bg-[url('./images/Poland.png')] dark:bg-[url('./images/Poland_dark.png')]`}
     >
       <div className={"w-full flex flex-col lg:items-end 2xl:items-center 2xl:pl-96 content-start gap-5"}>
         <h3 className={`${s.h3title} text-center lg:text-left lg:max-w-[28rem]`}>

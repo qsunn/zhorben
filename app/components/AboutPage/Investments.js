@@ -7,15 +7,11 @@ export const Investments = () => {
         <h3 className={`${s.h3title} ${s.title}`}>
           Our clients got investments from
         </h3>
-        <div className="w-full grid place-items-center grid-cols-2 sm:grid-cols-4 grid-flow-row gap-16 lg:gap-32">
-          <div className="h-20 w-28 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_forbes.svg')]" />
-          <div className="h-20 w-28 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_cnbc.svg')]" />
-          <div className="h-20 w-28 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_venturebeat.svg')]" />
-          <div className="h-20 w-28 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_the_sun_newspaper.svg')]" />
-          <div className="h-20 w-28 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_the_next_web.svg')]" />
-          <div className="h-20 w-28 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_bloomberg.svg')]" />
-          <div className="h-20 w-28 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_business_insider.svg')]" />
-          <div className="h-20 w-28 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_yahoo_finance.svg')]" />
+        <div className="flex flex-wrap place-items-center justify-center gap-16 lg:gap-x-56 sm:px-[10%]">
+          <div className="h-7 w-48 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_y-comb.svg')] transition-all hover:scale-125" />
+          <div className="h-7 w-48 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_google-assist.svg')] transition-all hover:scale-125" />
+          <div className="h-14 w-48 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_angelList.svg')] transition-all hover:scale-125" />
+          <div className="h-16 w-48 bg-center bg-no-repeat bg-contain bg-[url('./images/logo_SVB.svg')] transition-all hover:scale-125" />
         </div>
       </div>
     </section>

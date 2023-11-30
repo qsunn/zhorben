@@ -18,7 +18,7 @@ const Vacancy = [
 
 export const Vacancies = () => {
   return (
-    <section className={s.container}>
+    <section className={`${s.container} ${s.landing}`}>
       <div className="w-full">
         <h2 className={`${s.h2title} ${s.title}`}>
           We need more team members. <br /> Join us to make the world a better

@@ -1,10 +1,10 @@
 import { s } from "@/app/styles";
-import { Button } from "../Button";
+import Link from "next/link";
 
 export const ServicesLanding = () => {
   return (
-    <section className={s.container}>
-      <div className="w-full pt-20 lg:pt-48 flex flex-col">
+    <section className={`${s.container} ${s.landing}`}>
+      <div className="w-full flex flex-col">
         <h2 className={`${s.h1title} text-center mb-8`}>Our services</h2>
         <p
           className={`${s.h6titleM} ${s.title} place-self-center text-secondary-light dark:text-secondary-dark max-w-[43rem]`}
@@ -25,7 +25,12 @@ export const ServicesLanding = () => {
                 be formed by us and will become a dedicated part of your team.
               </p>
             </div>
-            <Button text="Learn more" />
+            <Link
+              className={`${s.p3heavy} box1 py-2 px-4 !rounded-full w-full md:w-auto whitespace-nowrap`}
+              href="/services/mobile"
+            >
+              Learn more
+            </Link>
           </div>
           <div className="box1 w-full p-8 flex flex-col justify-between items-start">
             <div>
@@ -37,7 +42,12 @@ export const ServicesLanding = () => {
                 develop and launch your project.
               </p>
             </div>
-            <Button text="Learn more" />
+            <Link
+              className={`${s.p3heavy} box1 py-2 px-4 !rounded-full w-full md:w-auto whitespace-nowrap`}
+              href="/services/web"
+            >
+              Learn more
+            </Link>
           </div>
         </div>
       </div>
