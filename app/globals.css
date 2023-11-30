@@ -6,10 +6,11 @@
   --white: #fff;
   --black: #000;
   --primary-light: #f4f4f4;
-  --primary-dark: #06080F;
+  --primary-dark: #06080f;
   --secondary-light: #6f7a8e4d;
-  --secondary-dark: #3E4253;
-  --additional: #0F111A;
+  --secondary-dark: #3e4253;
+  --additional: #0f111a;
+  --red: #b60b0b;
 }
 
 html {
@@ -24,43 +25,56 @@ html {
 
 body,
 header {
-  background: linear-gradient(138deg, var(--white) -72%, var(--primary-light) 36%);
+  background: linear-gradient(
+    138deg,
+    var(--white) -72%,
+    var(--primary-light) 36%
+  );
 }
 
 .dark body,
 .dark header {
-  background: linear-gradient(103deg, var(--primary-dark) 32%, var(--secondary-dark) 184%);
+  background: linear-gradient(
+    103deg,
+    var(--primary-dark) 32%,
+    var(--secondary-dark) 184%
+  );
 }
 
 .shadow1 {
-  box-shadow: -0.125rem -0.125rem 0.25rem var(--white), 0.125rem 0.125rem 0.25rem var(--secondary-light);
+  box-shadow: -0.125rem -0.125rem 0.25rem var(--white),
+    0.125rem 0.125rem 0.25rem var(--secondary-light);
 }
 
 .dark .shadow1 {
-  box-shadow: -0.25rem -0.25rem 0.5rem var(--secondary-light), 0.325rem 0.325rem 0.75rem var(--black);
+  box-shadow: -0.25rem -0.25rem 0.5rem var(--secondary-light),
+    0.325rem 0.325rem 0.75rem var(--black);
 }
 
 .box1 {
   background-color: var(--primary-light);
   border-radius: 1rem;
   transition: all 0.4s ease-in-out;
-  box-shadow: -0.125rem -0.125rem 0.25rem var(--white), 0.125rem 0.125rem 0.25rem var(--secondary-light);
+  box-shadow: -0.125rem -0.125rem 0.25rem var(--white),
+    0.125rem 0.125rem 0.25rem var(--secondary-light);
 }
 
 .box1:hover,
 .box1:focus {
-  box-shadow: -0.25rem -0.25rem 0.5rem var(--white), 0.325rem 0.325rem 0.75rem var(--secondary-light);
+  box-shadow: -0.25rem -0.25rem 0.5rem var(--white),
+    0.325rem 0.325rem 0.75rem var(--secondary-light);
 }
 
 .dark .box1 {
-  background: linear-gradient(90deg, #0C0E16 0%, #10121B 100%);
-  box-shadow: -0.125rem -0.125rem 0.25rem var(--secondary-light), 0.125rem 0.125rem 0.25rem var(--black);
+  background: linear-gradient(90deg, #0c0e16 0%, #10121b 100%);
+  box-shadow: -0.125rem -0.125rem 0.25rem var(--secondary-light),
+    0.125rem 0.125rem 0.25rem var(--black);
 }
-
 
 .dark .box1:hover,
 .dark .box1:focus {
-  box-shadow: -0.25rem -0.25rem 0.5rem var(--secondary-light), 0.325rem 0.325rem 0.75rem var(--black);
+  box-shadow: -0.25rem -0.25rem 0.5rem var(--secondary-light),
+    0.325rem 0.325rem 0.75rem var(--black);
 }
 
 .box2 {
@@ -71,7 +85,7 @@ header {
 }
 
 .dark .box2 {
-  background: linear-gradient(123deg, #06080F 64%, #13161F 100%);
+  background: linear-gradient(123deg, #06080f 64%, #13161f 100%);
   box-shadow: -6px -6px 8px 0px var(--secondary-light) inset,
     6px 6px 8px 0px rgba(0, 0, 0, 1) inset;
 }
@@ -98,14 +112,18 @@ header {
 }
 
 .opacityGradient {
-  mask-image: (linear,
-      right center,
-      right bottom,
-      from(rgba(0, 0, 0, 1)),
-      to(rgba(0, 0, 0, 0)));
-  -webkit-mask-image: -webkit-gradient(linear,
-      right center,
-      right bottom,
-      from(rgba(0, 0, 0, 1)),
-      to(rgba(0, 0, 0, 0)));
+  mask-image: (
+    linear,
+    right center,
+    right bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    right center,
+    right bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
 }

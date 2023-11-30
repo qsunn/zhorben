@@ -8,9 +8,11 @@ export const Achievement = () => {
       />
       <div className="flex flex-col gap-2">
         <div
-          className={`${s.image} h-5 w-10 bg-[url("./images/logo_clutch.png")]`}
+          className={`${s.image} h-5 w-10 bg-[url("./images/logo_clutch.png")] dark:bg-[url("./images/logo_clutch_dark.png")]`}
         />
-        <p className={`${s.p4book} text-secondary-light dark:text-secondary-dark text-left`}>
+        <p
+          className={`${s.p4book} text-secondary-light dark:text-secondary-dark text-left`}
+        >
           Top 5 <br />
           AI developers
         </p>
