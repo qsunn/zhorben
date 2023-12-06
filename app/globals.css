@@ -11,6 +11,7 @@
   --secondary-dark: #3e4253;
   --additional: #0f111a;
   --red: #b60b0b;
+  --tooltips-text: #c0c5da;
 }
 
 html {
@@ -85,6 +86,19 @@ header {
 }
 
 .dark .box2 {
+  background: linear-gradient(123deg, #06080f 64%, #13161f 100%);
+  box-shadow: -6px -6px 8px 0px var(--secondary-light) inset,
+    6px 6px 8px 0px rgba(0, 0, 0, 1) inset;
+}
+
+.box2-rounded {
+  border-radius: 1rem 1rem 1rem 1rem;
+  background: var(--primary-light);
+  box-shadow: -6px -6px 8px 0px var(--white) inset,
+    6px 6px 8px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+.dark .box2-rounded {
   background: linear-gradient(123deg, #06080f 64%, #13161f 100%);
   box-shadow: -6px -6px 8px 0px var(--secondary-light) inset,
     6px 6px 8px 0px rgba(0, 0, 0, 1) inset;
