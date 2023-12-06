@@ -5,9 +5,11 @@ export const ContactUs = () => {
   return (
     <section className={`${s.container} ${s.landing}`}>
       <div className="w-full">
-        <h3 className={`${s.h3title} mb-16 md:mb-[5rem]`}>Contact us</h3>
-        <div className="flex md:flex-row flex-col gap-12">
-          <div className="box1 flex flex-col basis-1/3">
+        <h3 className={`${s.h3title} mb-16 md:mb-[5rem] text-center`}>
+          Contact us
+        </h3>
+        <div className="flex md:flex-row flex-col gap-12 w-full">
+          <div className="box1 flex flex-col max-w-[23.75rem] w-full">
             <div className="flex flex-col p-8 gap-5">
               <p
                 className={`${s.p3medium}text-primary-light dark:text-primary-dark`}

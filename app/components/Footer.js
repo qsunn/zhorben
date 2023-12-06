@@ -1,3 +1,6 @@
+"use client";
+
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { s } from "../styles";
 import { Button } from "./Button";
@@ -44,16 +47,31 @@ export const Footer = () => {
       ],
     },
   ];
+
+  const pathname = usePathname();
+  const showForm = pathname.includes("contacts") || pathname.includes("career");
+  const showFooter =
+    pathname.includes("about") ||
+    pathname.includes("career") ||
+    pathname.includes("cases") ||
+    pathname.includes("services") ||
+    pathname.includes("clients") ||
+    pathname === "/";
+
+  if (!showFooter) return;
+
   return (
     <>
-      <section className={s.container}>
-        <div className="w-full">
-          <h2 className="text-4xl text-center underline mb-8">
-            Let&apos;s get started
-          </h2>
-          <Form />
-        </div>
-      </section>
+      {!showForm && (
+        <section className={s.container}>
+          <div className="w-full xl:px-24">
+            <h2 className="text-4xl text-center underline mb-20">
+              Let&apos;s get started
+            </h2>
+            <Form />
+          </div>
+        </section>
+      )}
       <footer className={`${s.container} py-16`}>
         <div className="w-full">
           <ul
@@ -61,7 +79,7 @@ export const Footer = () => {
           >
             {footerData.map((item) => {
               return (
-                <li key={item.title} className="">
+                <li key={item.title}>
                   <h6 className={`${s.h7titleUpper} mb-7`}>{item.title}</h6>
                   <ul className="flex flex-col gap-6 items-start">
                     {item.links.map((link, i, arr) => {

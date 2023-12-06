@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
+  darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,16 +8,17 @@ module.exports = {
   ],
   theme: {
     colors: {
-      current: 'currentColor',
+      transparent: "transparent",
+      current: "currentColor",
       primary: {
         light: "#2A354F",
-        dark: "#F8F8F8"
+        dark: "#F8F8F8",
       },
       secondary: {
         light: "#5F6E90",
-        dark: "#82809F"
+        dark: "#82809F",
       },
-      yellow: "#FFC700"
+      yellow: "#FFC700",
     },
     extend: {
       backgroundImage: {

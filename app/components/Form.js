@@ -6,72 +6,52 @@ export const Form = () => {
   return (
     <div className="w-full">
       <form className="w-full grid grid-flow-row gap-4 box1 p-8">
-        <div className="w-full flex flex-col md:flex-row gap-2">
+        <div className="w-full flex flex-col md:flex-row gap-4">
           <div className="w-full flex flex-col gap-1">
             <label className="text-[#C0C5DA] text-lg">First name*</label>
-            <div className="flex border-[#E0E0E0] dark:border-[#282B42] border  rounded-2xl pl-1 sm:pl-3 gap-2">
+            <div className="flex">
               <div
-                className={`${s.image} h-5 w-5 place-self-center bg-[url("./images/icon_filled_people.svg")]`}
+                className={`${s.image} h-5 w-5 bg-[url("./images/icon_filled_people.svg")] ${s.inputIcon}`}
               />
-              <input
-                type="text"
-                name="firstName"
-                className="w-full peer box2 p-4 border-[#E0E0E0] focus:outline-none dark:border-[#282B42] border-[1px]"
-              />
+              <input type="text" name="firstName" className={s.input} />
             </div>
           </div>
           <div className="w-full flex flex-col gap-1">
             <label className="text-[#C0C5DA] text-lg">Last name*</label>
-            <div className="flex rounded-2xl pl-1 sm:pl-3 gap-2 border-[#E0E0E0] dark:border-[#282B42] border-[1px] ">
+            <div className="flex">
               <div
-                className={`${s.image} h-5 w-5 place-self-center bg-[url("./images/icon_filled_people.svg")]`}
+                className={`${s.image} h-5 w-5 bg-[url("./images/icon_filled_people.svg")] ${s.inputIcon}`}
               />
-              <input
-                type="text"
-                name="lastName"
-                className="w-full peer box2 p-4 border-[#E0E0E0] focus:outline-none dark:border-[#282B42] border-[1px]"
-              />
+              <input type="text" name="lastName" className={s.input} />
             </div>
           </div>
         </div>
         <div className="w-full flex flex-col gap-1">
           <label className="text-[#C0C5DA] text-lg">Company name*</label>
-          <div className="flex rounded-2xl pl-1 sm:pl-3 gap-2 border-[#E0E0E0] dark:border-[#282B42] border-[1px] ">
+          <div className="flex">
             <div
-              className={`${s.image} h-5 w-5 place-self-center bg-[url("./images/icon_filled_people.svg")]`}
+              className={`${s.image} h-5 w-5 bg-[url("./images/icon_filled_people.svg")] ${s.inputIcon}`}
             />
-            <input
-              type="text"
-              name="company"
-              className="w-full peer box2 p-4 border-[#E0E0E0] focus:outline-none dark:border-[#282B42] border-[1px]"
-            />
+            <input type="text" name="company" className={s.input} />
           </div>
         </div>
-        <div className="w-full flex flex-col md:flex-row gap-2">
+        <div className="w-full flex flex-col md:flex-row gap-4">
           <div className="w-full flex flex-col gap-1">
             <label className="text-[#C0C5DA] text-lg">Your work email*</label>
-            <div className="flex rounded-2xl pl-1 sm:pl-3 gap-2 border-[#E0E0E0] dark:border-[#282B42] border-[1px] ">
+            <div className="flex">
               <div
-                className={`${s.image} h-5 w-5 place-self-center bg-[url("./images/icon_envelope.svg")]`}
+                className={`${s.image} h-5 w-5 bg-[url("./images/icon_envelope.svg")] ${s.inputIcon}`}
               />
-              <input
-                type="email"
-                name="email"
-                className="w-full peer box2 p-4 border-[#E0E0E0] focus:outline-none dark:border-[#282B42] border-[1px]"
-              />
+              <input type="email" name="email" className={s.input} />
             </div>
           </div>
           <div className="w-full flex flex-col gap-1">
             <label className="text-[#C0C5DA] text-lg">Phone*</label>
-            <div className="flex rounded-2xl pl-1 sm:pl-3 gap-2 border-[#E0E0E0] dark:border-[#282B42] border-[1px] ">
+            <div className="flex">
               <div
-                className={`${s.image} h-5 w-5 place-self-center bg-[url("./images/icon_telephone.svg")]`}
+                className={`${s.image} h-5 w-5 bg-[url("./images/icon_telephone.svg")] ${s.inputIcon}`}
               />
-              <input
-                type="tel"
-                name="phone"
-                className="w-full peer box2 p-4 border-[#E0E0E0] focus:outline-none dark:border-[#282B42] border-[1px]"
-              />
+              <input type="tel" name="phone" className={s.input} />
             </div>
           </div>
         </div>
@@ -80,7 +60,7 @@ export const Form = () => {
           <textarea
             name="message"
             rows="4"
-            className="w-full box2 p-4 !rounded-l-2xl border-[#E0E0E0] focus:outline-none dark:border-[#282B42] border-[1px] resize-none"
+            className={`${s.input} resize-none !rounded-l-2xl`}
             placeholder="Please, let us know more about you and the project"
           />
         </div>
