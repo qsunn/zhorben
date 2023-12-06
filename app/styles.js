@@ -32,4 +32,8 @@ export const s = {
   serviceBox2: "p-8 lg:min-w-[26.875rem] box1",
   bgImage: "bg-center bg-no-repeat bg-cover",
   image: "bg-center bg-no-repeat bg-contain",
+  input:
+    "w-full box2 p-4 border border-l-0 border-[#E0E0E0] focus:outline-none dark:border-[#282B42]",
+  inputIcon:
+    "border rounded-tl-2xl rounded-bl-2xl border-[#E0E0E0] dark:border-[#282B42] box-content bg-origin-content p-[1.125rem]",
 };
